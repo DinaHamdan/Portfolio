@@ -130,7 +130,7 @@ body {
         margin-top: 100px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        // justify-content: center;
 
         .experience-work-icon-one {
             display: none;
@@ -243,6 +243,7 @@ body {
 
         }
     }
+
 }
 
 @media screen and (min-width:880px) {
@@ -328,6 +329,47 @@ body {
 
                 }
 
+            }
+        }
+
+        #experience {
+
+            flex-direction: row;
+
+
+
+            .experience-work-icon-one {
+                display: block;
+            }
+
+            .experience-icon-one {
+                border: 1px solid red;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 50px;
+                margin: 50px;
+                width: 400px;
+                height: 500px;
+            }
+
+
+
+            .experience-container-one {
+                width: 500px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+
+
+            }
+
+
+
+
+            .experience-icon-two {
+                display: none
             }
         }
 

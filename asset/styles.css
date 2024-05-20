@@ -100,7 +100,6 @@ body #experience {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 body #experience .experience-work-icon-one {
   display: none;
@@ -237,6 +236,31 @@ body #experience .experience-icon-two {
   }
   body #about-me .about-container-flex .hiddenBgPhoto {
     display: inline-block;
+  }
+  body #experience {
+    flex-direction: row;
+  }
+  body #experience .experience-work-icon-one {
+    display: block;
+  }
+  body #experience .experience-icon-one {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px;
+    width: 400px;
+    height: 500px;
+  }
+  body #experience .experience-container-one {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  body #experience .experience-icon-two {
+    display: none;
   }
 }
 @media screen and (min-width: 1200px) {
