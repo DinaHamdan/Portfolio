@@ -81,6 +81,10 @@ nav .hiddenMenuIcon {
     display: flex;
     flex-direction: row;
   }
+  #navSection nav .hiddenMenuIcon img {
+    width: 100px;
+    height: 100px;
+  }
   #navSection .sticky {
     margin: 0;
     position: fixed;
@@ -88,20 +92,6 @@ nav .hiddenMenuIcon {
     right: 0;
     height: 100%;
     margin-left: 10px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  #navSection #namePhoto {
-    width: 800px;
-    height: 800px;
-  }
-  #navSection #namePhoto #headshot {
-    width: 600px;
-    height: 600px;
-  }
-  #navSection .hiddenMenuIcon img {
-    width: 100px;
-    height: 100px;
   }
 }
 #about-me {
@@ -166,10 +156,14 @@ nav .hiddenMenuIcon {
 }
 
 @media screen and (min-width: 880px) {
+  #about-me {
+    margin-top: 400px;
+  }
   #about-me .about-container-flex {
     display: flex;
     flex-direction: row;
-    gap: 100px;
+    justify-content: center;
+    align-items: center;
   }
   #about-me .about-container-flex .info-icon {
     margin-left: 50px;
@@ -189,7 +183,7 @@ nav .hiddenMenuIcon {
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
     display: block;
     color: #C15BBD;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 400;
   }
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
@@ -200,34 +194,16 @@ nav .hiddenMenuIcon {
   }
 }
 @media screen and (min-width: 1200px) {
-  #about-me .about-container-flex {
-    justify-content: space-between;
-    gap: 1em;
-  }
-  #about-me .about-container-flex .info-icon {
-    margin-left: 50px;
-    width: 150px;
-    height: 150px;
-  }
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
-    font-weight: 500;
-    font-size: 5.5em;
+    font-size: 3em;
   }
-  #about-me .about-container-flex .about-me-container-2 #CV {
-    margin: 25px;
-    height: 100px;
-    width: 280px;
-    font-size: 2em;
+  #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
+    min-width: 400px;
   }
-  #about-me .about-container-flex .blue-container-about-me {
-    height: 700px;
-    width: 900px;
-    font-size: 1.4em;
-  }
-  #about-me .about-container-flex .bg-container .hiddenBgPhoto {
-    width: 1200px;
-    height: 1000px;
-    margin-left: 200px;
+  #about-me .about-container-flex .about-me-container-2 .hiddenBgPhoto {
+    display: inline-block;
+    width: 600px;
+    height: 500px;
   }
 }
 #experience {

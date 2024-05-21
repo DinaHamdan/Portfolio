@@ -81,6 +81,10 @@ nav .hiddenMenuIcon {
     display: flex;
     flex-direction: row;
   }
+  #navSection nav .hiddenMenuIcon img {
+    width: 100px;
+    height: 100px;
+  }
   #navSection .sticky {
     margin: 0;
     position: fixed;
@@ -88,19 +92,5 @@ nav .hiddenMenuIcon {
     right: 0;
     height: 100%;
     margin-left: 10px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  #navSection #namePhoto {
-    width: 800px;
-    height: 800px;
-  }
-  #navSection #namePhoto #headshot {
-    width: 600px;
-    height: 600px;
-  }
-  #navSection .hiddenMenuIcon img {
-    width: 100px;
-    height: 100px;
   }
 }/*# sourceMappingURL=header.css.map */

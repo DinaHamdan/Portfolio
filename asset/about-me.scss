@@ -79,10 +79,15 @@
 
 
     #about-me {
+        margin-top: 400px;
+
         .about-container-flex {
             display: flex;
             flex-direction: row;
-            gap: 100px;
+            justify-content: center;
+            align-items: center;
+
+
 
 
             .info-icon {
@@ -105,7 +110,7 @@
                 .second-about-me-title {
                     display: block;
                     color: #C15BBD;
-                    font-size: 3em;
+                    font-size: 2em;
                     font-weight: 400;
 
                 }
@@ -118,7 +123,6 @@
             .hiddenBgPhoto {
                 display: inline-block;
 
-
             }
 
         }
@@ -126,55 +130,82 @@
 }
 
 @media screen and (min-width:1200px) {
-    // h1 {
-    //     font-size: 3em;
-    // }
-
-    // h2 {
-    //     font-size: 2em;
-    // }
     #about-me {
         .about-container-flex {
-            justify-content: space-between;
-            gap: 1em;
-
-            .info-icon {
-                margin-left: 50px;
-                width: 150px;
-                height: 150px;
-            }
-
             .about-me-container-2 {
                 .second-about-me-title {
-                    font-weight: 500;
-                    font-size: 5.5em;
-                }
 
-                #CV {
+                    font-size: 3em;
 
-                    margin: 25px;
-                    height: 100px;
-                    width: 280px;
-                    font-size: 2em;
 
                 }
-            }
 
-            .blue-container-about-me {
-                height: 700px;
-                width: 900px;
-                font-size: 1.4em;
-            }
+                .blue-container-about-me {
+                    min-width: 400px;
+                }
 
-            .bg-container {
                 .hiddenBgPhoto {
-                    width: 1200px;
-                    height: 1000px;
-                    margin-left: 200px;
-
+                    display: inline-block;
+                    width: 600px;
+                    height: 500px;
 
                 }
+
             }
         }
     }
 }
+
+// @media screen and (min-width:1200px) {
+//     // h1 {
+//     //     font-size: 3em;
+//     // }
+
+//     // h2 {
+//     //     font-size: 2em;
+//     // }
+//     #about-me {
+//         .about-container-flex {
+//             justify-content: space-between;
+//             gap: 1em;
+
+//             .info-icon {
+//                 margin-left: 50px;
+//                 width: 150px;
+//                 height: 150px;
+//             }
+
+//             .about-me-container-2 {
+//                 .second-about-me-title {
+//                     font-weight: 500;
+//                     font-size: 5.5em;
+//                 }
+
+//                 #CV {
+
+//                     margin: 25px;
+//                     height: 100px;
+//                     width: 280px;
+//                     font-size: 2em;
+
+//                 }
+//             }
+
+//             .blue-container-about-me {
+//                 height: 700px;
+//                 width: 900px;
+//                 font-size: 1.4em;
+//             }
+
+//             .bg-container {
+//                 .hiddenBgPhoto {
+//                     width: 1200px;
+//                     height: 1000px;
+//                     margin-left: 200px;
+
+
+//                 }
+//             }
+//         }
+//     }
+// }

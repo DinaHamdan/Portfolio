@@ -116,6 +116,10 @@ nav {
                 display: flex;
                 flex-direction: row;
 
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
 
             }
 
@@ -133,26 +137,28 @@ nav {
     }
 }
 
-@media screen and (min-width:1200px) {
-    #navSection {
-        #namePhoto {
-            width: 800px;
-            height: 800px;
+// @media screen and (min-width:1200px) {
+//     #navSection {
+//         #namePhoto {
+//             width: 800px;
+//             height: 800px;
 
-            #headshot {
-                width: 600px;
-                height: 600px;
-            }
-        }
+//             #headshot {
+//                 width: 600px;
+//                 height: 600px;
+//             }
+//         }
 
-        .hiddenMenuIcon {
-            img {
-                width: 100px;
-                height: 100px;
-            }
+//         nav {
+//             .hiddenMenuIcon {
+//                 img {
+//                     width: 150px;
+//                     height: 150px;
+//                 }
 
 
-        }
-    }
+//             }
+//         }
+//     }
 
-}
+// }
