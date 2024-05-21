@@ -1,17 +1,19 @@
 #about-me {
+
     display: flex;
     flex-direction: column;
 
     .about-me-container-1 {
         display: flex;
         flex-direction: row;
-        //border: 3px solid yellow;
+
         align-items: center;
 
         .first-about-me-title {
             color: #C15BBD;
-            font-size: 1.5em;
-            font-weight: 300;
+            font-size: 2.5em;
+            font-weight: 500;
+            margin: 50px 0;
         }
     }
 
@@ -20,18 +22,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        //border: 3px solid green;
 
         .second-about-me-title {
             display: none;
         }
 
         .blue-container-about-me {
-            // border: 3px solid red;
+
             border-radius: 50px;
             background-color: #1D086C;
             margin: 20px;
-            height: 200px;
+            height: 500px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -41,7 +42,7 @@
             .about-me-paragraph {
                 padding: 10px;
                 color: #CE7499;
-                font-size: 1em;
+                font-size: 2em;
                 font-weight: 400;
                 text-align: center;
                 text-justify: distribute;
@@ -53,8 +54,10 @@
         #CV {
             text-decoration: none;
             color: #FFFFFF;
-            height: 30px;
-            width: 150px;
+            margin: 25px;
+            height: 50px;
+            width: 180px;
+            font-size: 1.5em;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -80,15 +83,19 @@
             display: flex;
             flex-direction: row;
             gap: 100px;
-            // border: 1px solid orange;
 
+
+            .info-icon {
+                margin-left: 50px;
+                width: 100px;
+                height: 100px;
+            }
 
             .first-about-me-title {
                 display: none;
             }
 
             .about-me-container-2 {
-
                 text-align: center;
                 /*     display: flex;
                     flex-direction: column;
@@ -98,9 +105,9 @@
                 .second-about-me-title {
                     display: block;
                     color: #C15BBD;
-                    font-size: 2em;
-                    font-weight: 300;
-                    // border: 1px solid red;
+                    font-size: 3em;
+                    font-weight: 400;
+
                 }
 
                 .blue-container-about-me {
@@ -119,35 +126,55 @@
 }
 
 @media screen and (min-width:1200px) {
-    h1 {
-        font-size: 3em;
-    }
+    // h1 {
+    //     font-size: 3em;
+    // }
 
-    h2 {
-        font-size: 2em;
-    }
+    // h2 {
+    //     font-size: 2em;
+    // }
+    #about-me {
+        .about-container-flex {
+            justify-content: space-between;
+            gap: 1em;
 
-    .about-container-flex {
-        gap: 800px;
-
-        .about-me-container-2 {
-            .second-about-me-title {
-                font-weight: 500;
-                font-size: 5em;
+            .info-icon {
+                margin-left: 50px;
+                width: 150px;
+                height: 150px;
             }
-        }
 
-        .blue-container-about-me {
-            height: 500px;
-            width: 900px;
-            font-size: 2em;
-        }
+            .about-me-container-2 {
+                .second-about-me-title {
+                    font-weight: 500;
+                    font-size: 5.5em;
+                }
 
-        .hiddenBgPhoto {
-            width: 800px;
-            height: 800px;
-            //border: 1px solid red;
+                #CV {
 
+                    margin: 25px;
+                    height: 100px;
+                    width: 280px;
+                    font-size: 2em;
+
+                }
+            }
+
+            .blue-container-about-me {
+                height: 700px;
+                width: 900px;
+                font-size: 1.4em;
+            }
+
+            .bg-container {
+                .hiddenBgPhoto {
+                    width: 1200px;
+                    height: 1000px;
+                    margin-left: 200px;
+
+
+                }
+            }
         }
     }
 }

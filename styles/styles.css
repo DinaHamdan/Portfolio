@@ -96,8 +96,8 @@ nav .hiddenMenuIcon {
     height: 800px;
   }
   #navSection #namePhoto #headshot {
-    width: 700px;
-    height: 700px;
+    width: 600px;
+    height: 600px;
   }
   #navSection .hiddenMenuIcon img {
     width: 100px;
@@ -115,8 +115,9 @@ nav .hiddenMenuIcon {
 }
 #about-me .about-me-container-1 .first-about-me-title {
   color: #C15BBD;
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: 2.5em;
+  font-weight: 500;
+  margin: 50px 0;
 }
 #about-me .about-me-container-2 {
   display: flex;
@@ -131,7 +132,7 @@ nav .hiddenMenuIcon {
   border-radius: 50px;
   background-color: #1D086C;
   margin: 20px;
-  height: 200px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,7 +141,7 @@ nav .hiddenMenuIcon {
 #about-me .about-me-container-2 .blue-container-about-me .about-me-paragraph {
   padding: 10px;
   color: #CE7499;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 400;
   text-align: center;
   text-justify: distribute;
@@ -149,8 +150,10 @@ nav .hiddenMenuIcon {
 #about-me .about-me-container-2 #CV {
   text-decoration: none;
   color: #FFFFFF;
-  height: 30px;
-  width: 150px;
+  margin: 25px;
+  height: 50px;
+  width: 180px;
+  font-size: 1.5em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,6 +171,11 @@ nav .hiddenMenuIcon {
     flex-direction: row;
     gap: 100px;
   }
+  #about-me .about-container-flex .info-icon {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+  }
   #about-me .about-container-flex .first-about-me-title {
     display: none;
   }
@@ -181,8 +189,8 @@ nav .hiddenMenuIcon {
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
     display: block;
     color: #C15BBD;
-    font-size: 2em;
-    font-weight: 300;
+    font-size: 3em;
+    font-weight: 400;
   }
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
     min-width: 400px;
@@ -192,27 +200,34 @@ nav .hiddenMenuIcon {
   }
 }
 @media screen and (min-width: 1200px) {
-  h1 {
-    font-size: 3em;
+  #about-me .about-container-flex {
+    justify-content: space-between;
+    gap: 1em;
   }
-  h2 {
-    font-size: 2em;
+  #about-me .about-container-flex .info-icon {
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
   }
-  .about-container-flex {
-    gap: 800px;
-  }
-  .about-container-flex .about-me-container-2 .second-about-me-title {
+  #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
     font-weight: 500;
-    font-size: 5em;
+    font-size: 5.5em;
   }
-  .about-container-flex .blue-container-about-me {
-    height: 500px;
-    width: 900px;
+  #about-me .about-container-flex .about-me-container-2 #CV {
+    margin: 25px;
+    height: 100px;
+    width: 280px;
     font-size: 2em;
   }
-  .about-container-flex .hiddenBgPhoto {
-    width: 800px;
-    height: 800px;
+  #about-me .about-container-flex .blue-container-about-me {
+    height: 700px;
+    width: 900px;
+    font-size: 1.4em;
+  }
+  #about-me .about-container-flex .bg-container .hiddenBgPhoto {
+    width: 1200px;
+    height: 1000px;
+    margin-left: 200px;
   }
 }
 #experience {
