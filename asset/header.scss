@@ -11,7 +11,7 @@
         height: 400px;
 
         #myName {
-            font-size: 1.5em;
+            font-size: 2.5em;
             font-weight: 300;
             color: #C15BBD;
             margin: 20px;
@@ -28,8 +28,6 @@
 nav {
     margin: 40px 10px 0 0;
 
-
-
     .shownMenuIcon {
         width: 40px;
 
@@ -44,55 +42,6 @@ nav {
 
 @media screen and (min-width:400px) {
 
-        #navSection {
-            #namePhoto {
-
-                margin: 30px;
-                width: 500px;
-                height: 400px;
-
-                #myName {
-                    font-size: 2em;
-                    font-weight: 300;
-                    margin: 20px;
-                }
-
-
-                #namePhoto {
-                    border-top: 3px solid #550EE3;
-                    border-left: 3px solid #C15BBD;
-                    margin: 30px;
-                    width: 500px;
-                    height: 400px;
-
-                    #headshot {
-                        width: 300px;
-                        height: 300px;
-                    }
-                }
-            }
-
-
-            nav {
-                margin: 50px 10px 0 0;
-
-                .shownMenuIcon {
-                    width: 70px;
-
-                }
-
-                .hiddenMenuIcon {
-                    display: none;
-                }
-            }
-
-        }
-    }
-
-
-
-@media screen and (min-width:880px) {
-
     #navSection {
         #namePhoto {
 
@@ -100,9 +49,57 @@ nav {
             width: 500px;
             height: 400px;
 
+            #myName {
+                font-size: 3em;
+                font-weight: 400;
+                margin: 20px;
+            }
+
             #headshot {
                 width: 300px;
                 height: 300px;
+            }
+        }
+    }
+
+
+    nav {
+        margin: 50px 10px 0 0;
+
+        .shownMenuIcon {
+            width: 70px;
+
+        }
+
+        .hiddenMenuIcon {
+            display: none;
+        }
+    }
+
+}
+
+
+
+
+@media screen and (min-width:880px) {
+
+    #navSection {
+
+        #namePhoto {
+            border-top: 4px solid #550EE3;
+            border-left: 4px solid #C15BBD;
+            width: 500px;
+            height: 500px;
+
+            #myName {
+                font-size: 4em;
+                font-weight: 400;
+
+            }
+
+            #headshot {
+                width: 400px;
+                height: 400px;
             }
 
         }
@@ -134,4 +131,28 @@ nav {
 
         }
     }
+}
+
+@media screen and (min-width:1200px) {
+    #navSection {
+        #namePhoto {
+            width: 800px;
+            height: 800px;
+
+            #headshot {
+                width: 600px;
+                height: 600px;
+            }
+        }
+
+        .hiddenMenuIcon {
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+
+        }
+    }
+
 }

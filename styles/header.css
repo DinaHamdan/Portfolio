@@ -11,7 +11,7 @@
   height: 400px;
 }
 #navSection #namePhoto #myName {
-  font-size: 1.5em;
+  font-size: 2.5em;
   font-weight: 300;
   color: #C15BBD;
   margin: 20px;
@@ -38,40 +38,38 @@ nav .hiddenMenuIcon {
     height: 400px;
   }
   #navSection #namePhoto #myName {
-    font-size: 2em;
-    font-weight: 300;
+    font-size: 3em;
+    font-weight: 400;
     margin: 20px;
   }
-  #navSection #namePhoto #namePhoto {
-    border-top: 3px solid #550EE3;
-    border-left: 3px solid #C15BBD;
-    margin: 30px;
-    width: 500px;
-    height: 400px;
-  }
-  #navSection #namePhoto #namePhoto #headshot {
+  #navSection #namePhoto #headshot {
     width: 300px;
     height: 300px;
   }
-  #navSection nav {
+  nav {
     margin: 50px 10px 0 0;
   }
-  #navSection nav .shownMenuIcon {
+  nav .shownMenuIcon {
     width: 70px;
   }
-  #navSection nav .hiddenMenuIcon {
+  nav .hiddenMenuIcon {
     display: none;
   }
 }
 @media screen and (min-width: 880px) {
   #navSection #namePhoto {
-    margin: 30px;
+    border-top: 4px solid #550EE3;
+    border-left: 4px solid #C15BBD;
     width: 500px;
-    height: 400px;
+    height: 500px;
+  }
+  #navSection #namePhoto #myName {
+    font-size: 4em;
+    font-weight: 400;
   }
   #navSection #namePhoto #headshot {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
   }
   #navSection nav {
     margin: 50px;
@@ -90,5 +88,19 @@ nav .hiddenMenuIcon {
     right: 0;
     height: 100%;
     margin-left: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #navSection #namePhoto {
+    width: 800px;
+    height: 800px;
+  }
+  #navSection #namePhoto #headshot {
+    width: 600px;
+    height: 600px;
+  }
+  #navSection .hiddenMenuIcon img {
+    width: 100px;
+    height: 100px;
   }
 }/*# sourceMappingURL=header.css.map */
