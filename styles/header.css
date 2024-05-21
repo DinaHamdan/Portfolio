@@ -1,0 +1,94 @@
+#navSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#navSection #namePhoto {
+  border-top: 3px solid #550EE3;
+  border-left: 3px solid #C15BBD;
+  margin: 10px;
+  width: 500px;
+  height: 400px;
+}
+#navSection #namePhoto #myName {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #C15BBD;
+  margin: 20px;
+}
+#navSection #namePhoto #headshot {
+  width: 200px;
+  height: 200px;
+}
+
+nav {
+  margin: 40px 10px 0 0;
+}
+nav .shownMenuIcon {
+  width: 40px;
+}
+nav .hiddenMenuIcon {
+  display: none;
+}
+
+@media screen and (min-width: 400px) {
+  #navSection #namePhoto {
+    margin: 30px;
+    width: 500px;
+    height: 400px;
+  }
+  #navSection #namePhoto #myName {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 20px;
+  }
+  #navSection #namePhoto #namePhoto {
+    border-top: 3px solid #550EE3;
+    border-left: 3px solid #C15BBD;
+    margin: 30px;
+    width: 500px;
+    height: 400px;
+  }
+  #navSection #namePhoto #namePhoto #headshot {
+    width: 300px;
+    height: 300px;
+  }
+  #navSection nav {
+    margin: 50px 10px 0 0;
+  }
+  #navSection nav .shownMenuIcon {
+    width: 70px;
+  }
+  #navSection nav .hiddenMenuIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 880px) {
+  #navSection #namePhoto {
+    margin: 30px;
+    width: 500px;
+    height: 400px;
+  }
+  #navSection #namePhoto #headshot {
+    width: 300px;
+    height: 300px;
+  }
+  #navSection nav {
+    margin: 50px;
+  }
+  #navSection nav .shownMenuIcon {
+    display: none;
+  }
+  #navSection nav .hiddenMenuIcon {
+    display: flex;
+    flex-direction: row;
+  }
+  #navSection .sticky {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,118 @@
+
+#experience {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+
+    .experience-work-icon-one {
+        display: none;
+    }
+
+    .experience-icon-one {
+        display: none;
+    }
+
+    .experience-container-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+        .experience-container-one {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            .experience-title {
+                font-size: 1.5em;
+                font-weight: 300;
+                color: #C15BBD;
+            }
+        }
+
+        .experience-gradient-container {
+            background-image: linear-gradient(#C15BBD, #550EE3);
+
+
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+            border-radius: 50px;
+            padding: 50px 20px 20px 50px;
+            margin: 20px;
+
+            .experience-blue-container {
+
+                background-color: #1D086C;
+                height: 150px;
+                width: 300px;
+                border-radius: 50px;
+                color: #c175bf;
+                display: flex;
+                flex-direction: column;
+                justify-content: end;
+                padding: 30px;
+
+            }
+        }
+    }
+
+    .experience-icon-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin: 50px;
+    }
+}
+
+
+
+
+@media screen and (min-width:880px) {
+
+
+    #experience {
+
+        flex-direction: row;
+
+
+
+        .experience-work-icon-one {
+            display: block;
+        }
+
+        .experience-icon-one {
+            border: 1px solid red;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin: 50px;
+            width: 400px;
+            height: 500px;
+        }
+
+
+
+        .experience-container-one {
+            width: 500px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+
+        }
+
+
+
+
+        .experience-icon-two {
+            display: none
+        }
+    }
+
+}
