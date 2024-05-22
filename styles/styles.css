@@ -184,8 +184,8 @@ nav .hiddenMenuIcon {
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
     display: block;
     color: #C15BBD;
-    font-size: 2em;
-    font-weight: 400;
+    font-size: 3em;
+    font-weight: 300;
   }
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
     min-width: 400px;
@@ -198,6 +198,7 @@ nav .hiddenMenuIcon {
 @media screen and (min-width: 1200px) {
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
     font-size: 3em;
+    font-weight: 400;
   }
   #about-me .about-container-flex .about-me-container-2 .hiddenBgPhoto {
     display: inline-block;
@@ -206,7 +207,7 @@ nav .hiddenMenuIcon {
   }
 }
 #experience {
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -234,6 +235,7 @@ nav .hiddenMenuIcon {
   font-size: 2.5em;
   font-weight: 300;
   color: #C15BBD;
+  margin: 50px 0;
 }
 #experience .experience-container-flex .experience-gradient-container {
   background-image: linear-gradient(#C15BBD, #550EE3);
@@ -277,7 +279,33 @@ nav .hiddenMenuIcon {
   #experience {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  #experience .experience-icon-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 150px;
+    width: 300px;
+    height: 300px;
+  }
+  #experience .experience-icon-one img {
+    width: 70px;
+    height: 70px;
+  }
+  #experience .experience-icon-two {
+    display: none;
+  }
+  #experience .experience-container-flex .experience-gradient-container {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 880px) {
+  #experience {
+    margin-top: 200px;
   }
   #experience .experience-work-icon-one {
     display: block;
@@ -285,26 +313,9 @@ nav .hiddenMenuIcon {
     height: 100px;
     margin-left: 50px;
   }
-  #experience .experience-icon-one {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 50px;
-    margin: 50px;
-    width: 300px;
-    height: 300px;
-  }
-  #experience .experience-icon-one img {
-    width: 50px;
-    height: 50px;
-  }
-  #experience .experience-icon-two {
-    display: none;
-  }
-  #experience .experience-container-flex .experience-gradient-container {
-    border: 1px solid red;
-    width: 300px;
+  #experience .experience-container-one .experience-title {
+    font-size: 3em;
+    font-weight: 300;
   }
   #experience .experience-container-flex .experience-work-icon-two {
     display: none;
@@ -335,11 +346,31 @@ nav .hiddenMenuIcon {
     flex-direction: row;
     align-items: center;
   }
+  #experience .experience-container-flex .experience-container-one .experience-title {
+    font-size: 3em;
+    font-weight: 400;
+  }
   #experience .experience-container-flex .experience-gradient-container {
-    border: 1px solid red;
     width: 600px;
   }
 }
+#past-experience {
+  display: flex;
+  flex-direction: column;
+}
+#past-experience .past-experience-container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+#past-experience .past-experience-container-1 .experience-title {
+  color: #C15BBD;
+  font-size: 2.5em;
+  font-weight: 300;
+  margin: 50px 0;
+}
+
 * {
   padding: 0;
   margin: 0;
