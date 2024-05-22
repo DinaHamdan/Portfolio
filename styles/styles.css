@@ -355,20 +355,92 @@ nav .hiddenMenuIcon {
   }
 }
 #past-experience {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
+  width: 300px;
 }
-#past-experience .past-experience-container-1 {
+#past-experience .past-experience-container-2 {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
-#past-experience .past-experience-container-1 .experience-title {
+#past-experience .past-experience-container-2 .experience-title {
   color: #C15BBD;
   font-size: 2.5em;
   font-weight: 300;
   margin: 50px 0;
+}
+#past-experience .past-experience-container {
+  display: flex;
+  flex-direction: row;
+}
+#past-experience .past-experience-container .past-experience-container-flex {
+  margin-top: 50px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 50px;
+  color: #DEADFF;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container {
+  margin-left: 40px;
+  width: 250px;
+  font-size: 1.5em;
+  font-weight: 500;
+  position: relative;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container span {
+  margin-top: 10px;
+  display: block;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container .circle-1 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #C15BBD;
+  position: absolute;
+  right: -20px;
+  top: -2px;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container .circle-2 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #550EE3;
+  position: absolute;
+  right: -20px;
+  top: -2px;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container .circle-3 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #5B2B59;
+  position: absolute;
+  right: -20px;
+  top: -2px;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container .circle-4 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #AF26C5;
+  position: absolute;
+  right: -20px;
+  top: -2px;
+}
+#past-experience .past-experience-container .past-experience-container-flex .text-container .big-title {
+  font-size: 2em;
+}
+#past-experience .past-experience-container .line-container {
+  width: 7px;
+  height: 600px;
+  background-image: linear-gradient(#5B2B59, #550EE3);
 }
 
 * {
