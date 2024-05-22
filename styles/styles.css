@@ -131,7 +131,7 @@ nav .hiddenMenuIcon {
 }
 #about-me .about-me-container-2 .blue-container-about-me .about-me-paragraph {
   padding: 10px;
-  color: #CE7499;
+  color: #DEADFF;
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
@@ -443,6 +443,41 @@ nav .hiddenMenuIcon {
   background-image: linear-gradient(#5B2B59, #550EE3);
 }
 
+@media screen and (min-width: 950px) {
+  #past-experience {
+    margin-top: 150px;
+    width: 100vw;
+  }
+  #past-experience .line-container-original {
+    margin-left: 100px;
+    height: 7px;
+    width: 80%;
+    background-image: linear-gradient(#5B2B59, #550EE3);
+  }
+  #past-experience .past-experience-container .past-experience-container-flex {
+    flex-direction: row;
+    margin-left: 100px;
+  }
+  #past-experience .past-experience-container .past-experience-container-flex .text-container .circle-1 {
+    top: -70px;
+    left: -5px;
+  }
+  #past-experience .past-experience-container .past-experience-container-flex .text-container .circle-2 {
+    top: -70px;
+    left: -5px;
+  }
+  #past-experience .past-experience-container .past-experience-container-flex .text-container .circle-3 {
+    top: -70px;
+    left: -5px;
+  }
+  #past-experience .past-experience-container .past-experience-container-flex .text-container .circle-4 {
+    top: -70px;
+    left: -5px;
+  }
+  #past-experience .past-experience-container .line-container {
+    display: none;
+  }
+}
 * {
   padding: 0;
   margin: 0;
