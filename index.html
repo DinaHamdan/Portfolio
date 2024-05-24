@@ -20,9 +20,13 @@
         </div>
         <nav id="navbar">
 
-            <a class="shownMenuIcon" href=""><img class="shownMenuIcon" src="asset/img/icons8-menu-64.png" alt=""></a>
-            <a class="hiddenMenuIcon" href="#about-me"><img src="asset/img/icons8-info-squared-64.png" alt=""></a>
+            <a class="shownMenuIcon" href=""><img class="shownMenuIcon" src="asset/img/icons8-menu-64.png"
+                    alt="menu-icon"></a>
+            <a class="hiddenMenuIcon" href="#about-me"><img src="asset/img/icons8-info-squared-64.png"
+                    alt="about-me-icon"></a>
             <a class="hiddenMenuIcon" href="#experience"><img src="asset/img/icons8-work-64.png"
+                    alt="experience-icon"></a>
+            <a class="hiddenMenuIcon" href="#past-experience"><img src="asset/img/icons8-sand-watch-64.png"
                     alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#contact"><img src="asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
         </nav>
@@ -98,15 +102,15 @@
     <section id="past-experience">
         <!--  -->
 
-        <div class="past-experience-container-2">
-            <img src="asset/img/icons8-sand-watch-64.png" alt="">
-            <h2 class="experience-title">Past experiences</h2>
+        <div class="past-experience-container-1">
+            <img class="past-experience-icon" src="asset/img/icons8-sand-watch-64.png" alt="">
+            <h2 class="past-experience-title">Past experiences</h2>
         </div>
 
 
         <!--  -->
         <div class="line-container-original"></div>
-        <div class="past-experience-container">
+        <div class="past-experience-container-2">
             <div class="past-experience-container-flex">
                 <!--  -->
                 <div class="text-container">
@@ -140,6 +144,25 @@
                 </div>
             </div>
             <div class="line-container"></div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container-1">
+            <img class="contact-icon" src="asset/img/icons8-at-sign-64.png" alt="">
+            <h2 class="contact-title">Contact Me</h2>
+        </div>
+        <div>
+            <form action="ctrl/message.php" method="post">
+                <div>
+                    <input type="text" name="fname" id="fname">
+                    <input type="text" name="lname" id="lname">
+                    <input type="text" name="phoneNumber" id="phoneNumber">
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <textarea name="contactMsg" id="contactMsg" rows="10" cols="20"></textarea>
+                <input type="submit" name="" id="">
+            </form>
         </div>
     </section>
     <script src="js/sticky.js"></script>

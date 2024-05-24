@@ -7,13 +7,13 @@
 
 
 
-    .past-experience-container-2 {
+    .past-experience-container-1 {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 20px;
 
-        .experience-title {
+        .past-experience-title {
             color: #C15BBD;
             font-size: 2.5em;
             font-weight: 300;
@@ -21,7 +21,7 @@
         }
     }
 
-    .past-experience-container {
+    .past-experience-container-2 {
         display: flex;
         flex-direction: row;
         // justify-content: space-evenly;
@@ -115,14 +115,30 @@
         margin-top: 150px;
         width: 100vw;
 
+        .past-experience-container-1 {
+            .past-experience-icon {
+                width: 100px;
+                height: 100px;
+                margin-left: 50px;
+            }
+
+            .past-experience-title {
+                font-size: 3em;
+                font-weight: 400;
+            }
+
+            margin-bottom: 50px;
+
+        }
+
         .line-container-original {
             margin-left: 100px;
             height: 7px;
-            width: 80%;
+            width: 78%;
             background-image: linear-gradient(#5B2B59, #550EE3);
         }
 
-        .past-experience-container {
+        .past-experience-container-2 {
             // flex-direction: row;
 
 
