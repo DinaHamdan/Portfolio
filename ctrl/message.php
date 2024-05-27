@@ -1,9 +1,8 @@
 <?php
+//session_start();
 
-// session_start();
-
-// require $_SERVER['DOCUMENT_ROOT'] . '/model/database.php';
-// require $_SERVER['DOCUMENT_ROOT'] . '/model/lib/message.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/model/database.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/model/lib/portfolio.php';
 
 // Read login info entered by user
 $user = [];
@@ -12,3 +11,9 @@ $user['lastName'] = $_POST['lname'];
 $user['phoneNumber'] = $_POST['phoneNumber'];
 $user['email'] = $_POST['email'];
 $user['contactMsg'] = $_POST['contactMsg'];
+
+//Create message
+$isSuccess = LibUser::createMessage($user['firstName'], $user['lastName'], $user['email'], $user['phoneNumber'], $user['contactMsg']);
+
+// Redirige vers la page principal
+header('Location: ' . '/ctrl/portfolio.php');

@@ -113,6 +113,7 @@
   #past-experience .past-experience-container-2 .past-experience-container-flex {
     flex-direction: row;
     margin-left: 100px;
+    height: 200px;
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .circle-1 {
     top: -70px;
