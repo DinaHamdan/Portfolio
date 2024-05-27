@@ -25,6 +25,7 @@
             <a class="hiddenMenuIcon" href="#experience"><img src="../asset/img/icons8-work-64.png" alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#past-experience"><img src="../asset/img/icons8-sand-watch-64.png" alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#contact"><img src="../asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
+            <a class="hiddenMenuIcon" href="/ctrl/listMessage.php">Dashboard</a>
         </nav>
     </header>
     <!-- About me section -->

@@ -2,7 +2,7 @@
 //session_start();
 
 require $_SERVER['DOCUMENT_ROOT'] . '/model/database.php';
-require $_SERVER['DOCUMENT_ROOT'] . '/model/lib/portfolio.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/model/lib/message.php';
 
 // Read login info entered by user
 $user = [];

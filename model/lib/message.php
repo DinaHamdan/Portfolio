@@ -39,7 +39,7 @@ class LibUser
 
         // - Exécute la requête
         $successOrFailure = $statement->execute();
-        $message = $statement->fetchAll(PDO::FETCH_ASSOC);
-        return $message;
+        $listMessage = $statement->fetchAll(PDO::FETCH_ASSOC);
+        return $listMessage;
     }
 }

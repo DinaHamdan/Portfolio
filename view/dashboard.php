@@ -11,6 +11,7 @@
 <body>
 
     <main>
+        <h1><?php $pageTitle ?></h1>
 
         <table border="1">
 
@@ -19,26 +20,23 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>numeroIMO</th>
-                    <th>nom</th>
-                    <th>idTypeNavire</th>
-                    <th>action</th>
-                    <th>action</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone Number</th>
+                    <th>Email</th>
+                    <th>Message</th>
                 </tr>
             </thead>
 
             <tbody>
-                <?php foreach ($listMessages as $message) { ?>
-
+                <?php foreach ($listMessage as $message) { ?>
                     <tr>
-                        <td><a href="/ctrl/navire/navire.php?id=<?= $navire['id'] ?>"><?= $navire['id'] ?></a></td>
-                        <td><?= $navire['numeroIMO'] ?></td>
-                        <td><?= $navire['nom'] ?></td>
-                        <td><?= $navire['idTypeNavire'] ?></td>
-                        <td><a href="/ctrl/navire/remove.php?id=<?= $navire['id'] ?>" onclick="return confirm('are you sure you want to remove?');">Remove</a>
-                        </td>
-                        <td><a href="/ctrl/navire/update-display.php?id=<?= $navire['id'] ?>">Update</a>
-                        </td>
+                        <td><?= $message['id'] ?></td>
+                        <td><?= $message['fname'] ?></td>
+                        <td><?= $message['lname']  ?></td>
+                        <td><?= $message['phoneNumber']  ?></td>
+                        <td><?= $message['email']  ?></td>
+                        <td><?= $message['contactMsg'] ?></td>
                     </tr>
                 <?php } ?>
             </tbody>
