@@ -19,12 +19,12 @@ CREATE TABLE message(
 )
 ;
 
-CREATE TABLE user (
-   id bigint(100) NOT NULL AUTO_INCREMENT PRIMARY KEY
- ,fname varchar(50) NOT NULL
- ,lname varchar(50) NOT NULL
- ,email varchar(50) NOT NULL
- ,phoneNumber bigint(20) NOT NULL
+CREATE TABLE admin (
+   id bigint(20) NOT NULL AUTO_INCREMENT PRIMARY KEY
+  ,username varchar(50) NOT NULL
+  ,pass varchar(100) NOT NULL
+  ,passClear varchar(100) NOT NULL
+  ,codeRole varchar(50) NOT NULL
 )
 ;
 
