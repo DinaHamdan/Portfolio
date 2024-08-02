@@ -112,10 +112,8 @@
 
 @media screen and (min-width:950px) {
     #past-experience {
-        border: 1px solid red;
         margin-top: 150px;
-        //width: 100vw;
-        width: 1500px;
+        width: 100%;
 
         .past-experience-container-1 {
             .past-experience-icon {
@@ -136,7 +134,7 @@
         .line-container-original {
             margin-left: 100px;
             height: 7px;
-            width: 78%;
+            max-width: 80%;
             background-image: linear-gradient(#5B2B59, #550EE3);
         }
 
@@ -150,7 +148,7 @@
                 height: 200px;
 
                 .text-container {
-
+                    margin-left: 0;
 
                     .circle-1 {
                         top: -70px;
@@ -175,14 +173,16 @@
 
                     }
 
+                    .big-title {
+                        font-size: 1.5em;
+                    }
                 }
             }
-
-            .line-container {
-                display: none;
-            }
-
         }
-    }
 
+        .line-container {
+            display: none;
+        }
+
+    }
 }
