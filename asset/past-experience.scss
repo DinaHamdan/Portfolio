@@ -112,8 +112,10 @@
 
 @media screen and (min-width:950px) {
     #past-experience {
+        border: 1px solid red;
         margin-top: 150px;
-        width: 100vw;
+        //width: 100vw;
+        width: 1500px;
 
         .past-experience-container-1 {
             .past-experience-icon {
