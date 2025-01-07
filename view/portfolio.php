@@ -17,10 +17,7 @@
 <body>
     <!-- Header section -->
     <header id="navSection">
-        <div id="namePhoto">
-            <h1 id="myName">Dina Hamdan.</h1>
-            <img id="headshot" src="../asset/img/CV-photo.png" alt="">
-        </div>
+
         <nav id="navbar">
 
             <a class="shownMenuIcon" href=""><img class="shownMenuIcon" src="../asset/img/icons8-menu-64.png" alt="menu-icon"></a>
@@ -28,7 +25,8 @@
             <a class="hiddenMenuIcon" href="#experience"><img src="../asset/img/icons8-work-64.png" alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#past-experience"><img src="../asset/img/icons8-sand-watch-64.png" alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#contact"><img src="../asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
-            <a class="hiddenMenuIcon" href="/ctrl/login-display.php">Login</a>
+            <!--             <a class="hiddenMenuIcon" href="/ctrl/login-display.php">Login</a>
+ -->
         </nav>
     </header>
     <!-- About me section -->
@@ -36,25 +34,68 @@
         <div class="about-container-flex">
             <div class="about-me-container-1">
                 <img class="info-icon" src=" ../asset/img/icons8-info-squared-64.png" alt="">
-                <h2 class="first-about-me-title">Junior Web Developper</h2>
+
             </div>
             <div class="about-me-container-2">
-                <h2 class="second-about-me-title">Junior Web Developper</h2>
+                <h1 id="myName">Dina Hamdan.</h1>
+
+                <h2 class="second-about-me-title">Conceptrice développeuse d'applications en recherche d'alternance à Marseille/Toulouse</h2>
+
                 <div class="blue-container-about-me">
                     <p class="about-me-paragraph">
-                        Passionate about coding and web developpment, I am always seeking ways to improve my skillsets.
-                        Sciences and new technologies have always been part of my interests. Take a look around my
-                        portfolio
-                        to get to know me better.</p>
+                        Grâce à mon background scientifique,
+                        j’ai de l’expérience en analyse statistique
+                        en langage R. </p>
+                    <p class="about-me-paragraph"> d’un projet, j’ai été
+                        initiée à la programmation pour faire une
+                        étude de bio-informatique sous Linux.
+                        J’ai découvert une véritable passion pour
+                        les nouvelles technologies et la
+                        programmation, ce qui m’a conduit à
+                        entreprendre une reconversion en
+                        développement web au Greta, où j’ai pu
+                        confirmer mon appétence pour ce métier.</p>
+                    <p class="about-me-paragraph">
+                        Aujourd’hui, je souhaite évoluer et mettre
+                        mes compétences au profit d’un nouveau
+                        challenge pour devenir conceptrice
+                        développeuse d'applications au sein de
+                        Simplon. Mon profil, caractérisé par une
+                        grande rigueur et une curiosité, peut
+                        apporter une valeur ajoutée à votre
+                        équipe.
+                    </p>
                 </div>
                 <a id="CV" href="Cv/CV-Dina-Hamdan.pdf" download="" class="linkButtons">Download my CV</a>
 
             </div>
+
             <div class="bg-container">
                 <img class="hiddenBgPhoto" src="../asset/img/resized-2-removebg-preview.png" alt="">
             </div>
         </div>
 
+        <div id="namePhoto">
+            <h1 id="myName"> A propos de moi</h1>
+            <h2>Conceptrice développeuse d'applications en recherche d'alternance à Marseille/Toulouse</h2>
+            <img id="headshot" src="../asset/img/CV-photo.png" alt="">
+        </div>
+
+    </section>
+    <section>
+        <h2> A propos de moi</h2>
+        <h3>Rigoureuse</h3>
+        <h3>autonome</h3>
+        <h3>adaptable</h3>
+        <p>📍 Toulouse ou remote
+
+            🗓️ À partir de Mars 2025
+
+            📚 Organisme de formation : Simplon
+
+            ⌛ 3 semaines en entreprise, 1 semaine en formation
+
+            📃 Contrat de professionalisation</p>
     </section>
     <!-- Web development experiences -->
     <section id="experience">
@@ -75,7 +116,7 @@
         <div class="experience-container-flex">
             <div class="experience-container-one">
                 <img class="experience-work-icon-two" src="../asset/img/icons8-work-64.png" alt="work-icon">
-                <h2 class="experience-title">Web Developpment</h2>
+                <h2 class="experience-title">Mes compétences</h2>
             </div>
             <div class="experience-gradient-container">
                 <div class="experience-blue-container">
@@ -96,7 +137,8 @@
             <img src="../asset/img/icons8-git-64.png" alt="git-logo">
             <img src="../asset/img/icons8-bash-64.png" alt="bash-logo">
         </div>
-
+    </section id="projects">
+    <h2>Mes projets</h2>
     </section>
     <!-- Past Experiences -->
     <section id="past-experience">
@@ -146,13 +188,15 @@
             <div class="line-container"></div>
         </div>
     </section>
+
+    <h2>Recherche d'alternance</h2>
     <section id="contact">
         <div class="contact-container-1">
             <img class="contact-icon" src="../asset/img/icons8-at-sign-64.png" alt="">
             <h2 class="contact-title">Contact Me</h2>
         </div>
         <div>
-            <form action="/ctrl/message.php" method="post">
+            <form onsubmit="sendEmail(); reset(); return false;">
 
                 <div class="contact-container-2">
                     <input class="content" type="text" name="fname" id="fname" placeholder="First Name">
@@ -174,7 +218,33 @@
             ?>
         </p>
     </section>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                /* SecureToken: '58085f5c-76d1-4604-9b28-2d5f9e3c9969',
+                 */
+                Host: "smtp.gmail.com",
+                Username: "dina.greta.2024@gmail.com",
+                Password: "64D65CA512AD32BD6142E4AB8ED002614BA8",
+                To: "dina.greta.2024@gmail.com",
+                From: document.getElementById("email").value,
+                Subject: "New contact message",
+                Body: "First name : " + document.getElementById("fname").value +
+                    "<br> Last name : " + document.getElementById("lname").value +
+                    "<br> Email : " + document.getElementById("email").value +
+                    "<br> Phone Number : " + document.getElementById("phoneNumber").value +
+                    "<br> Content : " + document.getElementById("contactMsg").value
+            }).then(
+                message => alert("Your message has been sent successfully.")
+            );
+        }
+    </script>
     <script src="../js/sticky.js"></script>
+    <script src="../js/email.js"></script>
+
+
 </body>
 
 </html>

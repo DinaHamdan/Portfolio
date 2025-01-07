@@ -20,6 +20,12 @@
   justify-content: center;
   align-items: center;
 }
+#about-me .about-me-container-2 #myName {
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #C15BBD;
+  margin: 20px;
+}
 #about-me .about-me-container-2 .second-about-me-title {
   display: none;
 }
@@ -29,6 +35,7 @@
   margin: 20px;
   height: 550px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: 5px 5px 7px #1209B6;
@@ -36,7 +43,7 @@
 #about-me .about-me-container-2 .blue-container-about-me .about-me-paragraph {
   padding: 10px;
   color: #DEADFF;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: 400;
   text-align: center;
   text-justify: auto;
@@ -58,6 +65,17 @@
 }
 #about-me .hiddenBgPhoto {
   display: none;
+}
+#about-me #namePhoto {
+  border-top: 3px solid #550EE3;
+  border-left: 3px solid #C15BBD;
+  margin: 10px;
+  width: 500px;
+  height: 400px;
+}
+#about-me #namePhoto #headshot {
+  width: 250px;
+  height: 250px;
 }
 
 @media screen and (min-width: 880px) {
@@ -85,10 +103,13 @@
         justify-content: center;
         align-items: center; */
   }
+  #about-me .about-container-flex .about-me-container-2 #myName {
+    font-size: 3em;
+  }
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
     display: block;
     color: #C15BBD;
-    font-size: 3em;
+    font-size: 1em;
     font-weight: 300;
   }
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
@@ -101,7 +122,7 @@
 }
 @media screen and (min-width: 1200px) {
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 400;
   }
   #about-me .about-container-flex .about-me-container-2 .hiddenBgPhoto {
