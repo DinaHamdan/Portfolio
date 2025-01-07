@@ -20,13 +20,12 @@
 
         <nav id="navbar">
 
-            <a class="shownMenuIcon" href=""><img class="shownMenuIcon" src="../asset/img/icons8-menu-64.png" alt="menu-icon"></a>
-            <a class="hiddenMenuIcon" href="#about-me"><img src="../asset/img/icons8-info-squared-64.png" alt="about-me-icon"></a>
-            <a class="hiddenMenuIcon" href="#experience"><img src="../asset/img/icons8-work-64.png" alt="experience-icon"></a>
-            <a class="hiddenMenuIcon" href="#past-experience"><img src="../asset/img/icons8-sand-watch-64.png" alt="experience-icon"></a>
-            <a class="hiddenMenuIcon" href="#contact"><img src="../asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
-            <!--             <a class="hiddenMenuIcon" href="/ctrl/login-display.php">Login</a>
- -->
+            <a class="shownMenuIcon" href="">Acceuil<img class="shownMenuIcon" src="../asset/img/icons8-menu-64.png" alt="menu-icon"></a>
+            <a class="hiddenMenuIcon" href="#about-me">A propos<img src="../asset/img/icons8-info-squared-64.png" alt="about-me-icon"></a>
+            <a class="hiddenMenuIcon" href="#experience">Compétences<img src="../asset/img/icons8-work-64.png" alt="experience-icon"></a>
+            <a class="hiddenMenuIcon" href="#past-experience">Parcours<img src="../asset/img/icons8-sand-watch-64.png" alt="experience-icon"></a>
+            <a class="hiddenMenuIcon" href="#contact">Contact<img src="../asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
+
         </nav>
     </header>
     <!-- About me section -->
@@ -42,11 +41,10 @@
                 <h2 class="second-about-me-title">Conceptrice développeuse d'applications en recherche d'alternance à Marseille/Toulouse</h2>
 
                 <div class="blue-container-about-me">
-                    <p class="about-me-paragraph">
-                        Grâce à mon background scientifique,
+                    <p class="about-me-paragraph">Grâce à mon background scientifique,
                         j’ai de l’expérience en analyse statistique
                         en langage R. </p>
-                    <p class="about-me-paragraph"> d’un projet, j’ai été
+                    <p class="about-me-paragraph">Lors d’un projet, j’ai été
                         initiée à la programmation pour faire une
                         étude de bio-informatique sous Linux.
                         J’ai découvert une véritable passion pour

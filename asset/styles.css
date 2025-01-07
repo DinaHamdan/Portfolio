@@ -1,17 +1,10 @@
 #navSection {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
-
-nav {
-  margin: 40px 10px 0 0;
-}
-nav .shownMenuIcon {
+#navSection #navbar .shownMenuIcon {
   width: 40px;
-}
-nav .hiddenMenuIcon {
-  display: none;
 }
 
 @media screen and (min-width: 400px) {
@@ -34,41 +27,31 @@ nav .hiddenMenuIcon {
           }
       }
   } */
-  nav {
-    margin: 50px 10px 0 0;
-  }
-  nav .shownMenuIcon {
+  #navSection #navbar .shownMenuIcon {
     width: 70px;
-  }
-  nav .hiddenMenuIcon {
-    display: none;
   }
 }
 @media screen and (min-width: 880px) {
+  #navSection {
+    /*      .sticky {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        //  margin-left: 200px;
+        // height: 55%;
+        // border: 1px solid red;
+        // background-color: #550ee365;
+        border-radius: 20px;
+        margin-left: 10px;
+
+    } */
+  }
   #navSection nav {
     margin: 50px;
   }
   #navSection nav .shownMenuIcon {
     display: none;
-  }
-  #navSection nav .hiddenMenuIcon {
-    display: flex;
-    flex-direction: row;
-  }
-  #navSection nav .hiddenMenuIcon img {
-    width: 100px;
-    height: 100px;
-  }
-  #navSection .sticky {
-    margin: 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin-left: 200px;
-    height: 55%;
-    background-color: rgba(85, 14, 227, 0.3960784314);
-    border-radius: 20px;
-    margin-left: 10px;
   }
 }
 #about-me {
@@ -152,9 +135,6 @@ nav .hiddenMenuIcon {
 }
 
 @media screen and (min-width: 880px) {
-  #about-me {
-    margin-top: 400px;
-  }
   #about-me .about-container-flex {
     display: flex;
     flex-direction: row;
@@ -609,7 +589,7 @@ nav .hiddenMenuIcon {
 
 body {
   font-family: "Inconsolata", monospace;
-  background-image: linear-gradient(#1209B6, #080450, #1a1a1a);
+  background-image: linear-gradient(#080450, #1a1a1a);
   background-repeat: no-repeat;
   overflow-x: hidden;
 }/*# sourceMappingURL=styles.css.map */

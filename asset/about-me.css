@@ -79,9 +79,6 @@
 }
 
 @media screen and (min-width: 880px) {
-  #about-me {
-    margin-top: 400px;
-  }
   #about-me .about-container-flex {
     display: flex;
     flex-direction: row;
