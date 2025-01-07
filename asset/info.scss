@@ -1,0 +1,22 @@
+#info {
+    #namePhoto {
+        border-top: 3px solid #550EE3;
+        border-left: 3px solid #C15BBD;
+        margin: 10px;
+        width: 500px;
+        height: 400px;
+
+
+        #headshot {
+            width: 250px;
+            height: 250px;
+        }
+
+    }
+
+    /* Reveal Animation */
+    .show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

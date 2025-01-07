@@ -2,12 +2,26 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin: 1em;
+}
+#navSection #navbar a {
+  text-decoration: none;
+  color: #DEADFF;
+  font-size: 0.7em;
+  font-weight: 800;
+  margin: 0.5em;
+}
+#navSection #navbar a:hover {
+  color: #C15BBD;
+}
+#navSection #navbar a::after {
+  color: #DEADFF;
 }
 #navSection #navbar .shownMenuIcon {
   width: 40px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 800px) {
   /*    #navSection {
       #namePhoto {
 
@@ -27,6 +41,13 @@
           }
       }
   } */
+  #navSection {
+    gap: 5em;
+  }
+  #navSection #navbar a {
+    font-size: 1.5em;
+    font-weight: 800;
+  }
   #navSection #navbar .shownMenuIcon {
     width: 70px;
   }
@@ -57,6 +78,7 @@
 #about-me {
   display: flex;
   flex-direction: column;
+  margin-top: 1em;
 }
 #about-me .about-me-container-1 {
   display: flex;
@@ -89,7 +111,7 @@
   border-radius: 50px;
   background-color: #1D086C;
   margin: 20px;
-  height: 550px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,7 +127,7 @@
   text-justify: auto;
   -webkit-text-stroke: 0.1px #c175bf;
 }
-#about-me .about-me-container-2 #CV {
+#about-me .about-me-container-2 .blue-container-about-me #CV {
   text-decoration: none;
   color: #FFFFFF;
   margin: 25px;
@@ -122,19 +144,11 @@
 #about-me .hiddenBgPhoto {
   display: none;
 }
-#about-me #namePhoto {
-  border-top: 3px solid #550EE3;
-  border-left: 3px solid #C15BBD;
-  margin: 10px;
-  width: 500px;
-  height: 400px;
-}
-#about-me #namePhoto #headshot {
-  width: 250px;
-  height: 250px;
-}
 
 @media screen and (min-width: 880px) {
+  #about-me {
+    margin-top: 1em;
+  }
   #about-me .about-container-flex {
     display: flex;
     flex-direction: row;
@@ -184,6 +198,25 @@
     height: 500px;
   }
 }
+#info {
+  /* Reveal Animation */
+}
+#info #namePhoto {
+  border-top: 3px solid #550EE3;
+  border-left: 3px solid #C15BBD;
+  margin: 10px;
+  width: 500px;
+  height: 400px;
+}
+#info #namePhoto #headshot {
+  width: 250px;
+  height: 250px;
+}
+#info .show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 #experience {
   margin-top: 100px;
   display: flex;
@@ -332,6 +365,39 @@
     width: 600px;
   }
 }
+/* Reveal Animation */
+#project-title {
+  font-size: 3em;
+  font-weight: 500;
+  color: #C15BBD;
+  margin: 1em;
+  text-align: center;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  /* Project Card Styles */
+}
+#projects .section.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+#projects .project {
+  background: #550EE3;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+#projects .project h3 {
+  margin-top: 0;
+}
+#projects .project a {
+  color: #DEADFF;
+  text-decoration: none;
+}
+
 #past-experience {
   margin-top: 100px;
   display: flex;
@@ -592,4 +658,5 @@ body {
   background-image: linear-gradient(#080450, #1a1a1a);
   background-repeat: no-repeat;
   overflow-x: hidden;
+  box-sizing: border-box;
 }/*# sourceMappingURL=styles.css.map */

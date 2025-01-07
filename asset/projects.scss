@@ -1,0 +1,43 @@
+/* Reveal Animation */
+
+#project-title {
+    font-size: 3em;
+    font-weight: 500;
+    color: #C15BBD;
+    margin: 1em;
+    text-align: center;
+}
+
+#projects {
+    // background-color: #1D086C;
+    // background-image: linear-gradient(#080450, #1D086C);
+
+    display: flex;
+    justify-content: center;
+
+
+    .section.reveal.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Project Card Styles */
+
+    .project {
+        background: #550EE3;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+
+    .project h3 {
+        margin-top: 0;
+    }
+
+    .project a {
+        color: #DEADFF;
+        text-decoration: none;
+    }
+}

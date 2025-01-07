@@ -2,12 +2,26 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  margin: 1em;
+}
+#navSection #navbar a {
+  text-decoration: none;
+  color: #DEADFF;
+  font-size: 0.7em;
+  font-weight: 800;
+  margin: 0.5em;
+}
+#navSection #navbar a:hover {
+  color: #C15BBD;
+}
+#navSection #navbar a::after {
+  color: #DEADFF;
 }
 #navSection #navbar .shownMenuIcon {
   width: 40px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 800px) {
   /*    #navSection {
       #namePhoto {
 
@@ -27,6 +41,13 @@
           }
       }
   } */
+  #navSection {
+    gap: 5em;
+  }
+  #navSection #navbar a {
+    font-size: 1.5em;
+    font-weight: 800;
+  }
   #navSection #navbar .shownMenuIcon {
     width: 70px;
   }

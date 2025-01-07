@@ -20,11 +20,18 @@
 
         <nav id="navbar">
 
-            <a class="shownMenuIcon" href="">Acceuil<img class="shownMenuIcon" src="../asset/img/icons8-menu-64.png" alt="menu-icon"></a>
+            <!--  <a class="shownMenuIcon" href="">Acceuil<img class="shownMenuIcon" src="../asset/img/icons8-menu-64.png" alt="menu-icon"></a>
             <a class="hiddenMenuIcon" href="#about-me">A propos<img src="../asset/img/icons8-info-squared-64.png" alt="about-me-icon"></a>
             <a class="hiddenMenuIcon" href="#experience">Compétences<img src="../asset/img/icons8-work-64.png" alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#past-experience">Parcours<img src="../asset/img/icons8-sand-watch-64.png" alt="experience-icon"></a>
             <a class="hiddenMenuIcon" href="#contact">Contact<img src="../asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
+-->
+
+            <a class="shownMenuIcon" href="">Acceuil</a>
+            <a class="hiddenMenuIcon" href="#about-me">A propos</a>
+            <a class="hiddenMenuIcon" href="#experience">Compétences</a>
+            <a class="hiddenMenuIcon" href="#past-experience">Parcours</a>
+            <a class="hiddenMenuIcon" href="#contact">Contact</a>
 
         </nav>
     </header>
@@ -36,9 +43,9 @@
 
             </div>
             <div class="about-me-container-2">
-                <h1 id="myName">Dina Hamdan.</h1>
+                <h1 id="myName">Dina Hamdan</h1>
 
-                <h2 class="second-about-me-title">Conceptrice développeuse d'applications en recherche d'alternance à Marseille/Toulouse</h2>
+                <h2 class="second-about-me-title">Conceptrice développeuse d'applications</h2>
 
                 <div class="blue-container-about-me">
                     <p class="about-me-paragraph">Grâce à mon background scientifique,
@@ -63,8 +70,9 @@
                         apporter une valeur ajoutée à votre
                         équipe.
                     </p>
+                    <a id="CV" href="Cv/CV-Dina-Hamdan.pdf" download="" class="linkButtons">Mon CV</a>
+
                 </div>
-                <a id="CV" href="Cv/CV-Dina-Hamdan.pdf" download="" class="linkButtons">Download my CV</a>
 
             </div>
 
@@ -73,27 +81,33 @@
             </div>
         </div>
 
+
+
+    </section>
+    <section id="info" class="section reveal">
         <div id="namePhoto">
-            <h1 id="myName"> A propos de moi</h1>
+            <h2> A propos de moi</h2>
             <h2>Conceptrice développeuse d'applications en recherche d'alternance à Marseille/Toulouse</h2>
             <img id="headshot" src="../asset/img/CV-photo.png" alt="">
         </div>
-
-    </section>
-    <section>
         <h2> A propos de moi</h2>
         <h3>Rigoureuse</h3>
         <h3>autonome</h3>
         <h3>adaptable</h3>
-        <p>📍 Toulouse ou remote
+        <h2>Recherche d'alternance</h2>
 
-            🗓️ À partir de Mars 2025
+        <p>📍 Marseile | Toulouse et agglomération </p>
+        <p> 🗓️ À partir de Mars 2025
+        </p>
+        <p> 📚 Organisme de formation : Simplon
+        </p>
+        <p> ⌛ 3 semaines en entreprise, 1 semaine en formation
+        </p>
+        <p> 📃 Contrat de professionalisation</p>
+        </p>
 
-            📚 Organisme de formation : Simplon
 
-            ⌛ 3 semaines en entreprise, 1 semaine en formation
 
-            📃 Contrat de professionalisation</p>
     </section>
     <!-- Web development experiences -->
     <section id="experience">
@@ -135,16 +149,32 @@
             <img src="../asset/img/icons8-git-64.png" alt="git-logo">
             <img src="../asset/img/icons8-bash-64.png" alt="bash-logo">
         </div>
-    </section id="projects">
-    <h2>Mes projets</h2>
+
     </section>
+
+    <!-- Projects Section -->
+    <h2 id="project-title">Mes projets</h2>
+    <section id="projects" class="section reveal">
+        <div class="project">
+            <h3>Project One</h3>
+            <p>A description of my first project.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Two</h3>
+            <p>A description of my second project.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+
+
     <!-- Past Experiences -->
     <section id="past-experience">
         <!--  -->
 
         <div class="past-experience-container-1">
             <img class="past-experience-icon" src="../asset/img/icons8-sand-watch-64.png" alt="">
-            <h2 class="past-experience-title">Past experiences</h2>
+            <h2 class="past-experience-title">Mon Parcours</h2>
         </div>
 
 
@@ -187,7 +217,6 @@
         </div>
     </section>
 
-    <h2>Recherche d'alternance</h2>
     <section id="contact">
         <div class="contact-container-1">
             <img class="contact-icon" src="../asset/img/icons8-at-sign-64.png" alt="">

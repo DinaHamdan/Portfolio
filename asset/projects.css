@@ -1,0 +1,32 @@
+/* Reveal Animation */
+#project-title {
+  font-size: 3em;
+  font-weight: 500;
+  color: #C15BBD;
+  margin: 1em;
+  text-align: center;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  /* Project Card Styles */
+}
+#projects .section.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+#projects .project {
+  background: #550EE3;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+#projects .project h3 {
+  margin-top: 0;
+}
+#projects .project a {
+  color: #DEADFF;
+  text-decoration: none;
+}/*# sourceMappingURL=projects.css.map */

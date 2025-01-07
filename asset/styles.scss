@@ -1,6 +1,8 @@
 @use 'header.scss';
 @use 'about-me.scss';
+@use 'info.scss';
 @use 'experience.scss';
+@use 'projects.scss';
 @use 'past-experience.scss';
 @use 'contact.scss';
 
@@ -15,4 +17,6 @@ body {
     background-image: linear-gradient(#080450, #1a1a1a);
     background-repeat: no-repeat;
     overflow-x: hidden;
+    box-sizing: border-box;
+
 }
