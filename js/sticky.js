@@ -1,4 +1,4 @@
-window.onscroll = function () { myFunction() };
+/* window.onscroll = function () { myFunction() };
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -11,7 +11,7 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
-
+ */
 //reveal on scroll
 // Function to reveal sections on scroll
 const revealOnScroll = () => {
@@ -22,6 +22,8 @@ const revealOnScroll = () => {
         const windowHeight = window.innerHeight;
 
         if (sectionTop < windowHeight - 300) {
+            console.log('scroll worked')
+
             section.classList.add('show');
         }
 

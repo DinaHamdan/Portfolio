@@ -84,28 +84,35 @@
 
 
     </section>
-    <section id="info" class="section reveal">
+    <h2 id="info-title"> A propos de moi</h2>
+    <section id="info" class="reveal">
         <div id="namePhoto">
-            <h2> A propos de moi</h2>
-            <h2>Conceptrice développeuse d'applications en recherche d'alternance à Marseille/Toulouse</h2>
+
             <img id="headshot" src="../asset/img/CV-photo.png" alt="">
         </div>
-        <h2> A propos de moi</h2>
-        <h3>Rigoureuse</h3>
-        <h3>autonome</h3>
-        <h3>adaptable</h3>
-        <h2>Recherche d'alternance</h2>
+        <div id="soft-skills">
 
-        <p>📍 Marseile | Toulouse et agglomération </p>
-        <p> 🗓️ À partir de Mars 2025
-        </p>
-        <p> 📚 Organisme de formation : Simplon
-        </p>
-        <p> ⌛ 3 semaines en entreprise, 1 semaine en formation
-        </p>
-        <p> 📃 Contrat de professionalisation</p>
-        </p>
+            <p>Rigoureuse</p>
+            <p>Autonome</p>
+            <p>Adaptable</p>
+            <p>Travail en équipe</p>
+            <p>Curieuse</p>
+            <p>Dynamique</p>
 
+        </div>
+        <div id="alternance-container">
+            <h2>Recherche d'alternance</h2>
+
+            <p>📍 Marseile | Toulouse et agglomération </p>
+            <p> 🗓️ À partir de Mars 2025
+            </p>
+            <p> 📚 Organisme de formation : Simplon
+            </p>
+            <p> ⌛ 3 semaines en entreprise, 1 semaine en formation
+            </p>
+            <p> 📃 Contrat de professionalisation</p>
+            </p>
+        </div>
 
 
     </section>
@@ -154,7 +161,7 @@
 
     <!-- Projects Section -->
     <h2 id="project-title">Mes projets</h2>
-    <section id="projects" class="section reveal">
+    <section id="projects" class="reveal">
         <div class="project">
             <h3>Project One</h3>
             <p>A description of my first project.</p>

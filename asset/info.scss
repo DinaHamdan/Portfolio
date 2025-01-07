@@ -1,10 +1,26 @@
+#info-title {
+    font-size: 3em;
+    font-weight: 300;
+    color: hsl(302, 45%, 56%);
+    margin: 1.5em;
+}
+
 #info {
+    //padding: 5em;
+    //   margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    color: white;
+
     #namePhoto {
         border-top: 3px solid #550EE3;
         border-left: 3px solid #C15BBD;
         margin: 10px;
-        width: 500px;
-        height: 400px;
+        width: 300px;
+        height: 250px;
 
 
         #headshot {
@@ -14,9 +30,74 @@
 
     }
 
-    /* Reveal Animation */
-    .show {
-        opacity: 1;
-        transform: translateY(0);
+    #alternance-container {
+        border-radius: 50px;
+        background-color: #1D086C;
+        margin: 20px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        box-shadow: 5px 5px 7px #1209B6;
     }
+
+    #soft-skills {
+        display: flex;
+        //flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1em;
+        width: 30%;
+        text-align: justify;
+
+        p {
+            font-size: 1em;
+            border-radius: 50px;
+            background-color: #C15BBD;
+            padding: 1em;
+        }
+
+    }
+}
+
+
+
+@media screen and (min-width:800px) {
+    #info-title {
+        font-size: 3em;
+        font-weight: 500;
+        margin: 5em 0 1em 3em;
+
+    }
+
+    #info {
+
+        flex-direction: row;
+
+        #namePhoto {
+            width: 400px;
+            height: 350px;
+
+            #headshot {
+                width: 300px;
+                height: 300px;
+
+
+            }
+        }
+
+        #soft-skills {
+
+
+            p {
+                font-size: 1.5em;
+
+            }
+
+        }
+    }
+
+
 }
