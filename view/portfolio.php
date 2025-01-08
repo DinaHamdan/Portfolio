@@ -105,14 +105,17 @@
             <h2>Recherche d'alternance</h2>
 
             <p>📍 Marseile | Toulouse et agglomération </p>
-            <p> 🗓️ À partir de Mars 2025
+            <p>🗓️ À partir de Mars 2025
             </p>
-            <p> 📚 Organisme de formation : Simplon
+            <p>📚 Organisme de formation : Simplon
             </p>
-            <p> ⌛ 3 semaines en entreprise, 1 semaine en formation
+            <p>⌛ 3 semaines en entreprise, 1 semaine en formation
             </p>
-            <p> 📃 Contrat de professionalisation</p>
+            <p>📃 Contrat de professionalisation</p>
             </p>
+
+            <a id="simplon-info" href="../Cv/plaquette-cda.pdf" download="" class="linkButtons">Plaquette Simplon</a>
+
         </div>
 
 
