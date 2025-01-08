@@ -269,7 +269,7 @@
     <section id="contact">
         <div class="contact-container-1">
             <img class="contact-icon" src="../asset/img/icons8-at-sign-64.png" alt="">
-            <h2 class="contact-title">Contact Me</h2>
+            <h2 class="contact-title">Contactez Moi!</h2>
         </div>
         <div>
             <form action="contact.php" method="post">
@@ -277,12 +277,11 @@
                 <div class="contact-container-2">
                     <input class="content" type="text" required name="fname" id="fname" placeholder="Prénom">
                     <input class="content" type="text" required name="lname" id="lname" placeholder="Nom">
-                    <input class="content" type="text" required name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
-                    <input class="content" type="email" required name="email" id="email" placeholder="Email">
+                    <input class="content-email" type="email" required name="email" id="email" placeholder="Email">
                 </div>
                 <div class="contact-container-3">
-                    <textarea class="inputMessage" required name="contactMsg" id="contactMsg" rows="10" cols="20" placeholder="Your Message..."></textarea>
-                    <input class="sendButton" type="submit" value="Send" name="" id="">
+                    <textarea class="inputMessage" required name="contactMsg" id="contactMsg" rows="10" cols="20" placeholder="Message..."></textarea>
+                    <input class="sendButton" type="submit" value="Envoyer" name="" id="">
                 </div>
             </form>
 
@@ -291,9 +290,11 @@
     </section>
 
     <script src="../js/sticky.js"></script>
-    <script src="../js/email.js"></script>
 
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Dina Hamdan. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

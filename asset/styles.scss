@@ -5,6 +5,7 @@
 @use 'projects.scss';
 @use 'past-experience.scss';
 @use 'contact.scss';
+@use 'footer.scss';
 
 * {
     padding: 0;
@@ -19,10 +20,4 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
 
-}
-
-/* Reveal Animation */
-.show {
-    opacity: 1;
-    transform: translateY(0);
 }
