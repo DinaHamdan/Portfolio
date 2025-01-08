@@ -50,6 +50,9 @@
   background-image: linear-gradient(#C15BBD, #550EE3);
   box-shadow: 5px 5px 7px #1D086C;
 }
+#info #alternance-container #simplon-info:hover {
+  transform: scale(1.2);
+}
 #info #soft-skills {
   display: grid;
   grid-template-columns: auto auto;

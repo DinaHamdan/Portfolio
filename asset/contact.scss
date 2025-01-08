@@ -77,6 +77,10 @@
             width: 100px;
             background-image: linear-gradient(#550EE3, #737373);
         }
+
+        .sendButton:hover {
+            transform: scale(1.2);
+        }
     }
 
 }

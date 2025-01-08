@@ -208,14 +208,28 @@
     <h2 id="project-title">Mes projets</h2>
     <section id="projects" class="reveal">
         <div class="project">
-            <h3>Project One</h3>
-            <p>A description of my first project.</p>
-            <a href="#">View Project</a>
+            <img src="../asset/img/ffm.png" alt="">
+            <h3>Site Fire From Mars</h3>
+            <p>Un site que j'ai réalisé pour une association de jongleur sur Marseille. Téchnologies: PHP - MVC - SQL - JS - SASS - POO </p>
+            <a href="https://github.com/DinaHamdan/FFM">View Project</a>
         </div>
         <div class="project">
-            <h3>Project Two</h3>
-            <p>A description of my second project.</p>
-            <a href="#">View Project</a>
+            <img src="../asset/img/metropole.png" alt="">
+            <h3>Application métrople</h3>
+            <p>Recréation de l'application du métropole en Javascript</p>
+            <a href="https://github.com/DinaHamdan/metropole-transport">View Project</a>
+        </div>
+        <div class="project">
+            <img src="../asset/img/blog.png" alt="">
+            <h3>BlaBla Blog</h3>
+            <p>Création d'un site blog avec une authenthification login et une possibilité de poster des discussions, mettre des commentaires et des likes. Téchnologies: php - sql - css - CRUD - login</p>
+            <a href="https://github.com/DinaHamdan/Blog">View Project</a>
+        </div>
+        <div class="project">
+            <img src="../asset/img/carambar.png" alt="">
+            <h3>API Carambar</h3>
+            <p>Création d'un site blog avec une authenthification login et une possibilité de poster des discussions, mettre des commentaires et des likes. Téchnologies: php - sql - css - CRUD - login</p>
+            <a href="https://github.com/DinaHamdan/api-carambar">View Project</a>
         </div>
     </section>
 

@@ -68,6 +68,9 @@
   width: 100px;
   background-image: linear-gradient(#550EE3, #737373);
 }
+#contact .contact-container-3 .sendButton:hover {
+  transform: scale(1.2);
+}
 
 @media screen and (min-width: 810px) {
   #contact {

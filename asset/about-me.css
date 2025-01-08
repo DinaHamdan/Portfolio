@@ -83,6 +83,9 @@
   background-image: linear-gradient(#C15BBD, #550EE3);
   box-shadow: 5px 5px 7px #1D086C;
 }
+#about-me .about-me-container-2 .blue-container-about-me #CV:hover {
+  transform: scale(1.2);
+}
 #about-me .hiddenBgPhoto {
   display: none;
 }

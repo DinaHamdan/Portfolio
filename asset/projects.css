@@ -1,15 +1,20 @@
-/* Reveal Animation */
 #project-title {
-  font-size: 3em;
-  font-weight: 500;
+  padding: 1.5em;
+  font-size: 2em;
+  font-weight: 300;
   color: #C15BBD;
   margin: 1em;
   text-align: center;
 }
 
 #projects {
-  display: flex;
+  /*   display: flex;
+  justify-content: center; */
+  align-items: center;
   justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
   /* Project Card Styles */
 }
 #projects .section.reveal.show {
@@ -17,11 +22,28 @@
   transform: translateY(0);
 }
 #projects .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 300px;
+  height: 400px;
   background: #550EE3;
   padding: 20px;
   margin: 20px;
+  text-align: center;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+#projects .project img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#projects .project:hover {
+  transform: scale(1.2);
 }
 #projects .project h3 {
   margin-top: 0;
@@ -29,4 +51,10 @@
 #projects .project a {
   color: #DEADFF;
   text-decoration: none;
+}
+
+@media screen and (min-width: 810px) {
+  #project-title {
+    font-size: 3.5em;
+  }
 }/*# sourceMappingURL=projects.css.map */
