@@ -39,12 +39,15 @@
     <section id="about-me">
         <div class="about-container-flex">
             <div class="about-me-container-1">
-                <img class="info-icon" src=" ../asset/img/icons8-info-squared-64.png" alt="">
+                <img class="info-icon-1" src=" ../asset/img/icons8-info-squared-64.png" alt="">
 
             </div>
             <div class="about-me-container-2">
-                <h1 id="myName">Dina Hamdan</h1>
+                <div class="icon-name-container">
+                    <img class="info-icon-2" src=" ../asset/img/icons8-info-squared-64.png" alt="">
 
+                    <h1 id="myName">Dina Hamdan</h1>
+                </div>
                 <h2 class="second-about-me-title">Conceptrice développeuse d'applications</h2>
 
                 <div class="blue-container-about-me">

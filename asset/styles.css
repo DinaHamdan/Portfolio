@@ -85,12 +85,16 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
+  /*     .first-about-me-title {
+      color: #C15BBD;
+      // color: #DEADFF;
+      font-size: 2.5em;
+      font-weight: 300;
+      margin: 50px 0;
+  } */
 }
-#about-me .about-me-container-1 .first-about-me-title {
-  color: #C15BBD;
-  font-size: 2.5em;
-  font-weight: 300;
-  margin: 50px 0;
+#about-me .about-me-container-1 .info-icon-1 {
+  display: none;
 }
 #about-me .about-me-container-2 {
   display: flex;
@@ -98,16 +102,29 @@
   justify-content: center;
   align-items: center;
 }
-#about-me .about-me-container-2 #myName {
+#about-me .about-me-container-2 .icon-name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about-me .about-me-container-2 .icon-name-container .info-icon-2 {
+  width: 50px;
+  height: 50px;
+}
+#about-me .about-me-container-2 .icon-name-container #myName {
   font-size: 2.5em;
   font-weight: 300;
   color: #C15BBD;
   margin: 20px;
 }
 #about-me .about-me-container-2 .second-about-me-title {
-  display: none;
+  color: #C15BBD;
+  font-size: 1em;
+  font-weight: 300;
+  text-align: center;
 }
 #about-me .about-me-container-2 .blue-container-about-me {
+  padding: 1em;
   border-radius: 50px;
   background-color: #1D086C;
   margin: 20px;
@@ -157,32 +174,30 @@
     justify-content: center;
     align-items: center;
   }
-  #about-me .about-container-flex .info-icon {
+  #about-me .about-container-flex .about-me-container-1 .info-icon-1 {
+    display: inline-block;
     margin-left: 50px;
     width: 100px;
     height: 100px;
   }
-  #about-me .about-container-flex .first-about-me-title {
-    display: none;
-  }
   #about-me .about-container-flex .about-me-container-2 {
     text-align: justify;
   }
-  #about-me .about-container-flex .about-me-container-2 #myName {
-    font-size: 3em;
+  #about-me .about-container-flex .about-me-container-2 .icon-name-container .info-icon-2 {
+    display: none;
+  }
+  #about-me .about-container-flex .about-me-container-2 .icon-name-container #myName {
+    font-size: 4em;
   }
   #about-me .about-container-flex .about-me-container-2 .second-about-me-title {
-    display: block;
-    color: #C15BBD;
-    font-size: 1em;
-    font-weight: 300;
+    font-size: 1.2em;
   }
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
     min-width: 400px;
     box-shadow: 10px 10px 20px #1209B6;
   }
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me .about-me-paragraph {
-    font-size: 1.2em;
+    font-size: 1em;
   }
   #about-me .about-container-flex .hiddenBgPhoto {
     display: inline-block;
@@ -193,14 +208,17 @@
     font-size: 1.5em;
     font-weight: 400;
   }
-  #about-me .about-container-flex .about-me-container-2 .hiddenBgPhoto {
+  #about-me .about-container-flex .about-me-container-2 .blue-container-about-me .about-me-paragraph {
+    font-size: 1.2em;
+  }
+  #about-me .about-container-flex .hiddenBgPhoto {
     display: inline-block;
     width: 600px;
     height: 500px;
   }
 }
 #info-title {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 300;
   color: hsl(302, 45%, 56%);
   margin: 1.5em;
@@ -236,11 +254,11 @@
   align-items: center;
   gap: 1em;
   box-shadow: 5px 5px 7px #1209B6;
+  padding: 2em;
 }
 #info #alternance-container #simplon-info {
   text-decoration: none;
   color: #FFFFFF;
-  margin: 25px;
   height: 50px;
   width: 180px;
   font-size: 1em;
@@ -252,11 +270,9 @@
   box-shadow: 5px 5px 7px #1D086C;
 }
 #info #soft-skills {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto;
   gap: 1em;
-  width: 30%;
   text-align: justify;
 }
 #info #soft-skills p {

@@ -11,12 +11,16 @@
         align-items: center;
         gap: 20px;
 
-        .first-about-me-title {
+        /*     .first-about-me-title {
             color: #C15BBD;
             // color: #DEADFF;
             font-size: 2.5em;
             font-weight: 300;
             margin: 50px 0;
+        } */
+
+        .info-icon-1 {
+            display: none;
         }
     }
 
@@ -26,20 +30,34 @@
         justify-content: center;
         align-items: center;
 
-        #myName {
-            font-size: 2.5em;
-            font-weight: 300;
-            color: #C15BBD;
-            margin: 20px;
+        .icon-name-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .info-icon-2 {
+                width: 50px;
+                height: 50px;
+            }
+
+            #myName {
+                font-size: 2.5em;
+                font-weight: 300;
+                color: #C15BBD;
+                margin: 20px;
+            }
         }
 
 
         .second-about-me-title {
-            display: none;
+            color: #C15BBD;
+            font-size: 1em;
+            font-weight: 300;
+            text-align: center;
         }
 
         .blue-container-about-me {
-
+            padding: 1em;
             border-radius: 50px;
             background-color: #1D086C;
             margin: 20px;
@@ -110,32 +128,33 @@
             justify-content: center;
             align-items: center;
 
-            .info-icon {
-                margin-left: 50px;
-                width: 100px;
-                height: 100px;
+            .about-me-container-1 {
+                .info-icon-1 {
+                    display: inline-block;
+                    margin-left: 50px;
+                    width: 100px;
+                    height: 100px;
+                }
             }
 
-            .first-about-me-title {
-                display: none;
-            }
 
             .about-me-container-2 {
                 text-align: justify;
 
+                .icon-name-container {
+                    .info-icon-2 {
+                        display: none;
+                    }
 
-                #myName {
-                    font-size: 3em;
 
+                    #myName {
+                        font-size: 4em;
+
+                    }
                 }
 
                 .second-about-me-title {
-                    display: block;
-                    color: #C15BBD;
-                    // color: #DEADFF;
-                    font-size: 1em;
-                    font-weight: 300;
-
+                    font-size: 1.2em;
                 }
 
                 .blue-container-about-me {
@@ -143,7 +162,7 @@
                     box-shadow: 10px 10px 20px #1209B6;
 
                     .about-me-paragraph {
-                        font-size: 1.2em;
+                        font-size: 1em;
                     }
                 }
             }
@@ -170,15 +189,22 @@
 
                 }
 
+                .blue-container-about-me {
 
-                .hiddenBgPhoto {
-                    display: inline-block;
-                    width: 600px;
-                    height: 500px;
 
+                    .about-me-paragraph {
+                        font-size: 1.2em;
+                    }
                 }
+            }
+
+            .hiddenBgPhoto {
+                display: inline-block;
+                width: 600px;
+                height: 500px;
 
             }
+
         }
     }
 }
