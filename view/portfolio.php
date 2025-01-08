@@ -123,7 +123,7 @@
     <!-- Web development experiences -->
     <section id="experience">
 
-        <img class="experience-work-icon-one" src="../asset/img/icons8-work-64.png" alt="work-icon">
+        <!--   <img class="experience-work-icon-one" src="../asset/img/icons8-work-64.png" alt="work-icon"> -->
         <div class="experience-container-flex">
             <div class="experience-container-one">
                 <img class="experience-work-icon-two" src="../asset/img/icons8-work-64.png" alt="work-icon">
@@ -272,51 +272,24 @@
             <h2 class="contact-title">Contact Me</h2>
         </div>
         <div>
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form action="contact.php" method="post">
 
                 <div class="contact-container-2">
-                    <input class="content" type="text" name="fname" id="fname" placeholder="First Name">
-                    <input class="content" type="text" name="lname" id="lname" placeholder="Last Name">
-                    <input class="content" type="text" name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
-                    <input class="content" type="email" name="email" id="email" placeholder="Email">
+                    <input class="content" type="text" required name="fname" id="fname" placeholder="Prénom">
+                    <input class="content" type="text" required name="lname" id="lname" placeholder="Nom">
+                    <input class="content" type="text" required name="phoneNumber" id="phoneNumber" placeholder="Phone Number">
+                    <input class="content" type="email" required name="email" id="email" placeholder="Email">
                 </div>
                 <div class="contact-container-3">
-                    <textarea class="inputMessage" name="contactMsg" id="contactMsg" rows="10" cols="20" placeholder="Your Message..."></textarea>
+                    <textarea class="inputMessage" required name="contactMsg" id="contactMsg" rows="10" cols="20" placeholder="Your Message..."></textarea>
                     <input class="sendButton" type="submit" value="Send" name="" id="">
                 </div>
             </form>
 
         </div>
-        <p class="notificationMsg">
-            <?php
-            echo $_SESSION['success'];
-            unset($_SESSION['success']);
-            ?>
-        </p>
+
     </section>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
-    <script>
-        function sendEmail() {
-            Email.send({
-                /* SecureToken: '58085f5c-76d1-4604-9b28-2d5f9e3c9969',
-                 */
-                Host: "smtp.gmail.com",
-                Username: "dina.greta.2024@gmail.com",
-                Password: "64D65CA512AD32BD6142E4AB8ED002614BA8",
-                To: "dina.greta.2024@gmail.com",
-                From: document.getElementById("email").value,
-                Subject: "New contact message",
-                Body: "First name : " + document.getElementById("fname").value +
-                    "<br> Last name : " + document.getElementById("lname").value +
-                    "<br> Email : " + document.getElementById("email").value +
-                    "<br> Phone Number : " + document.getElementById("phoneNumber").value +
-                    "<br> Content : " + document.getElementById("contactMsg").value
-            }).then(
-                message => alert("Your message has been sent successfully.")
-            );
-        }
-    </script>
+
     <script src="../js/sticky.js"></script>
     <script src="../js/email.js"></script>
 

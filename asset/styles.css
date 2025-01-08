@@ -293,6 +293,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /*    .experience-work-icon-one {
+      display: none;
+  } */
   /* 
   .experience-icon-two {
       display: grid;
@@ -328,9 +331,6 @@
       }
 
   } */
-}
-#experience .experience-work-icon-one {
-  display: none;
 }
 #experience .experience-icon-one {
   display: grid;
@@ -452,6 +452,10 @@
 
     } */
   }
+  #experience .experience-container-flex .experience-container-one .experience-work-icon-two {
+    width: 100px;
+    height: 100px;
+  }
   #experience .experience-container-flex .experience-container-one .experience-title {
     font-size: 3.5em;
   }
@@ -459,6 +463,10 @@
 @media screen and (min-width: 880px) {
   #experience .experience-icon-one {
     grid-template-columns: auto auto auto auto;
+  }
+  .experience-container-flex .experience-container-one .experience-work-icon-two {
+    width: 100px;
+    height: 100px;
   }
 }
 /* 
@@ -724,6 +732,8 @@
   margin-top: 100px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #contact .contact-container-1 {
   display: flex;
@@ -784,8 +794,9 @@
   #contact {
     margin-top: 100px;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    /*  justify-content: center;
+           align-items: center;
+    */
   }
   #contact .contact-container-2 {
     width: 500px;
@@ -812,21 +823,26 @@
     font-size: 1.2em;
   }
 }
-@media screen and (min-width: 1200px) {
-  #contact {
-    justify-content: flex-start;
-    align-items: start;
-  }
-  #contact .contact-container-1 .contact-icon {
-    width: 100px;
-    height: 100px;
-  }
-  #contact .contact-container-1 .contact-title {
-    font-size: 3em;
-    font-weight: 400;
-    margin: 50px 0;
-  }
-}
+/* @media screen and (min-width:1200px) {
+    #contact {
+        justify-content: flex-start;
+        align-items: start;
+
+        .contact-container-1 {
+            .contact-icon {
+                width: 100px;
+                height: 100px;
+
+            }
+
+            .contact-title {
+                font-size: 3em;
+                font-weight: 400;
+                margin: 50px 0;
+            }
+        }
+    }
+} */
 * {
   padding: 0;
   margin: 0;
