@@ -124,12 +124,24 @@
     <section id="experience">
 
         <img class="experience-work-icon-one" src="../asset/img/icons8-work-64.png" alt="work-icon">
+        <div class="experience-container-flex">
+            <div class="experience-container-one">
+                <img class="experience-work-icon-two" src="../asset/img/icons8-work-64.png" alt="work-icon">
+                <h2 class="experience-title">Mes compétences</h2>
+            </div>
+            <!--     <div class="experience-gradient-container">
+                <div class="experience-blue-container">
+                    <p>XP</p>
 
+                    <p>1 year of experience in front end and back end web developpment.</p>
+                </div>
+            </div>-->
+        </div>
         <div class="experience-icon-one">
             <p>HTML</p>
             <p>CSS</p>
             <p>Figma</p>
-            <p>javascript</p>
+            <p>JS</p>
             <p>PHP</p>
             <p>POO</p>
             <p>MySQL</p>
@@ -138,7 +150,7 @@
             <p>Linux</p>
             <p>Docker</p>
             <p>Angular</p>
-            <p>NodeJs</p>
+            <p>NodeJS</p>
             <p>React</p>
             <p>Symfony</p>
             <p>Twig</p>
@@ -153,38 +165,28 @@
             <img src="../asset/img/icons8-git-64.png" alt="git-logo">
             <img src="../asset/img/icons8-bash-64.png" alt="bash-logo"> -->
         </div>
-        <div class="experience-container-flex">
-            <div class="experience-container-one">
-                <img class="experience-work-icon-two" src="../asset/img/icons8-work-64.png" alt="work-icon">
-                <h2 class="experience-title">Mes compétences</h2>
-            </div>
-            <div class="experience-gradient-container">
-                <div class="experience-blue-container">
-                    <p>XP</p>
 
-                    <p>1 year of experience in front end and back end web developpment.</p>
-                </div>
-            </div>
-        </div>
-        <div class="experience-icon-two">
 
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Figma</p>
-            <p>javascript</p>
-            <p>PHP</p>
-            <p>POO</p>
-            <p>MySQL</p>
-            <p>MongoDB</p>
-            <p>R</p>
-            <p>Linux</p>
-            <p>Docker</p>
-            <p>Angular</p>
-            <p>NodeJs</p>
-            <p>React</p>
-            <p>Symfony</p>
-            <p>Twig</p>
-            <!--   
+        <!-- 
+            <div class="experience-icon-two">
+
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Figma</p>
+                <p>javascript</p>
+                <p>PHP</p>
+                <p>POO</p>
+                <p>MySQL</p>
+                <p>MongoDB</p>
+                <p>R</p>
+                <p>Linux</p>
+                <p>Docker</p>
+                <p>Angular</p>
+                <p>NodeJs</p>
+                <p>React</p>
+                <p>Symfony</p>
+                <p>Twig</p>
+                 
             <img src="../asset/img/icons8-html-64.png" alt="html-logo">
             <img src="../asset/img/icons8-css-filetype-64.png" alt="css-logo">
             <img src="../asset/img/icons8-javascript-64.png" alt="js-logo">
@@ -195,8 +197,8 @@
             <img src="../asset/img/icons8-git-64.png" alt="git-logo">
             <img src="../asset/img/icons8-bash-64.png" alt="bash-logo">
        
--->
-        </div>
+
+        </div>-->
     </section>
 
     <!-- Projects Section -->
