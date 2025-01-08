@@ -53,19 +53,20 @@
                         en langage R. </p>
                     <p class="about-me-paragraph">Lors d’un projet, j’ai été
                         initiée à la programmation pour faire une
-                        étude de bio-informatique sous Linux.
+                        étude de <span> bio-informatique sous Linux.</span>
                         J’ai découvert une véritable passion pour
-                        les nouvelles technologies et la
-                        programmation, ce qui m’a conduit à
-                        entreprendre une reconversion en
+                        <span> les nouvelles technologies</span> et la
+                        <span> programmation</span>, ce qui m’a conduit à
+                        entreprendre une <span>reconversion </span> en
                         développement web au Greta, où j’ai pu
-                        confirmer mon appétence pour ce métier.</p>
+                        confirmer mon appétence pour ce métier.
+                    </p>
                     <p class="about-me-paragraph">
                         Aujourd’hui, je souhaite évoluer et mettre
                         mes compétences au profit d’un nouveau
-                        challenge pour devenir conceptrice
-                        développeuse d'applications au sein de
-                        Simplon. Mon profil, caractérisé par une
+                        challenge pour devenir <span> conceptrice
+                            développeuse d'applications</span> au sein de
+                        <span>Simplon </span> . Mon profil, caractérisé par une
                         grande rigueur et une curiosité, peut
                         apporter une valeur ajoutée à votre
                         équipe.

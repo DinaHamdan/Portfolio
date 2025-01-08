@@ -55,11 +55,15 @@
                 padding: 10px;
                 // color: #CE7499;
                 color: #DEADFF;
-                font-size: 1em;
+                font-size: 0.7em;
                 font-weight: 400;
-                text-align: center;
-                text-justify: auto;
+                text-align: justify;
+                // text-justify: auto;
                 -webkit-text-stroke: 0.1px #c175bf;
+
+                span {
+                    font-weight: 1000;
+                }
 
             }
 
@@ -117,11 +121,8 @@
             }
 
             .about-me-container-2 {
-                text-align: center;
-                /*     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center; */
+                text-align: justify;
+
 
                 #myName {
                     font-size: 3em;
@@ -140,6 +141,10 @@
                 .blue-container-about-me {
                     min-width: 400px;
                     box-shadow: 10px 10px 20px #1209B6;
+
+                    .about-me-paragraph {
+                        font-size: 1.2em;
+                    }
                 }
             }
 

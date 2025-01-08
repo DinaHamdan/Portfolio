@@ -44,11 +44,13 @@
 #about-me .about-me-container-2 .blue-container-about-me .about-me-paragraph {
   padding: 10px;
   color: #DEADFF;
-  font-size: 1em;
+  font-size: 0.7em;
   font-weight: 400;
-  text-align: center;
-  text-justify: auto;
+  text-align: justify;
   -webkit-text-stroke: 0.1px #c175bf;
+}
+#about-me .about-me-container-2 .blue-container-about-me .about-me-paragraph span {
+  font-weight: 1000;
 }
 #about-me .about-me-container-2 .blue-container-about-me #CV {
   text-decoration: none;
@@ -87,11 +89,7 @@
     display: none;
   }
   #about-me .about-container-flex .about-me-container-2 {
-    text-align: center;
-    /*     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
+    text-align: justify;
   }
   #about-me .about-container-flex .about-me-container-2 #myName {
     font-size: 3em;
@@ -105,6 +103,9 @@
   #about-me .about-container-flex .about-me-container-2 .blue-container-about-me {
     min-width: 400px;
     box-shadow: 10px 10px 20px #1209B6;
+  }
+  #about-me .about-container-flex .about-me-container-2 .blue-container-about-me .about-me-paragraph {
+    font-size: 1.2em;
   }
   #about-me .about-container-flex .hiddenBgPhoto {
     display: inline-block;
