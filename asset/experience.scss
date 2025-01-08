@@ -11,6 +11,7 @@
 
     .experience-icon-one {
         display: none;
+
     }
 
     .experience-container-flex {
@@ -75,6 +76,20 @@
         justify-content: space-evenly;
         gap: 10px;
         margin: 50px;
+
+
+
+        p {
+            font-size: 1em;
+            font-weight: 500;
+            border-radius: 50px;
+            background-color: #C15BBD;
+            padding: 1em;
+            color: white;
+        }
+
+
+
     }
 }
 
@@ -97,6 +112,15 @@
             margin-top: 150px;
             width: 300px;
             height: 300px;
+
+            p {
+                font-size: 1em;
+                font-weight: 500;
+                border-radius: 50px;
+                background-color: #C15BBD;
+                padding: 1em;
+                color: white;
+            }
 
             img {
                 width: 70px;
@@ -129,6 +153,8 @@
             width: 100px;
             height: 100px;
             margin-left: 50px;
+
+
 
         }
 
@@ -192,7 +218,7 @@
             }
 
             .experience-gradient-container {
-        
+
                 width: 600px;
             }
 

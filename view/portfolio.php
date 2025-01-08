@@ -123,7 +123,24 @@
         <img class="experience-work-icon-one" src="../asset/img/icons8-work-64.png" alt="work-icon">
 
         <div class="experience-icon-one">
-            <img src="../asset/img/icons8-html-64.png" alt="html-logo">
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Figma</p>
+            <p>javascript</p>
+            <p>PHP</p>
+            <p>POO</p>
+            <p>MySQL</p>
+            <p>MongoDB</p>
+            <p>R</p>
+            <p>Linux</p>
+            <p>Docker</p>
+            <p>Angular</p>
+            <p>NodeJs</p>
+            <p>React</p>
+            <p>Symfony</p>
+            <p>Twig</p>
+
+            <!--        <img src="../asset/img/icons8-html-64.png" alt="html-logo">
             <img src="../asset/img/icons8-css-filetype-64.png" alt="css-logo">
             <img src="../asset/img/icons8-javascript-64.png" alt="js-logo">
             <img src="../asset/img/icons8-nodejs-64.png" alt="nodejs-logo">
@@ -131,7 +148,7 @@
             <img src="../asset/img/icons8-mysql-64.png" alt="sql-logo">
             <img src="../asset/img/icons8-database-64.png" alt="database-logo">
             <img src="../asset/img/icons8-git-64.png" alt="git-logo">
-            <img src="../asset/img/icons8-bash-64.png" alt="bash-logo">
+            <img src="../asset/img/icons8-bash-64.png" alt="bash-logo"> -->
         </div>
         <div class="experience-container-flex">
             <div class="experience-container-one">
@@ -147,6 +164,24 @@
             </div>
         </div>
         <div class="experience-icon-two">
+
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Figma</p>
+            <p>javascript</p>
+            <p>PHP</p>
+            <p>POO</p>
+            <p>MySQL</p>
+            <p>MongoDB</p>
+            <p>R</p>
+            <p>Linux</p>
+            <p>Docker</p>
+            <p>Angular</p>
+            <p>NodeJs</p>
+            <p>React</p>
+            <p>Symfony</p>
+            <p>Twig</p>
+            <!--   
             <img src="../asset/img/icons8-html-64.png" alt="html-logo">
             <img src="../asset/img/icons8-css-filetype-64.png" alt="css-logo">
             <img src="../asset/img/icons8-javascript-64.png" alt="js-logo">
@@ -156,8 +191,9 @@
             <img src="../asset/img/icons8-database-64.png" alt="database-logo">
             <img src="../asset/img/icons8-git-64.png" alt="git-logo">
             <img src="../asset/img/icons8-bash-64.png" alt="bash-logo">
+       
+-->
         </div>
-
     </section>
 
     <!-- Projects Section -->
