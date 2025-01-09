@@ -12,9 +12,11 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.5em;
 
     div {
         padding: 1em;
+
 
         a {
             color: purple;
@@ -32,4 +34,10 @@ footer {
 
     }
 
+}
+
+@media screen and (min-width: 810px) {
+    footer {
+        font-size: 1em;
+    }
 }

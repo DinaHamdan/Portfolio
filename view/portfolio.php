@@ -17,7 +17,7 @@
 <body>
     <!-- Header section -->
     <header id="navSection">
-
+        <img id="burger-menu" src="../asset/img/burger-menu.png" alt="">
         <nav id="navbar">
 
             <!--  <a class="shownMenuIcon" href="">Acceuil<img class="shownMenuIcon" src="../asset/img/icons8-menu-64.png" alt="menu-icon"></a>
@@ -27,11 +27,18 @@
             <a class="hiddenMenuIcon" href="#contact">Contact<img src="../asset/img/icons8-at-sign-64.png" alt="contact-icon"></a>
 -->
 
-            <a class="shownMenuIcon" href="">Acceuil</a>
-            <a class="hiddenMenuIcon" href="#info-title">A propos</a>
-            <a class="hiddenMenuIcon" href="#experience">Compétences</a>
-            <a class="hiddenMenuIcon" href="#past-experience">Parcours</a>
-            <a class="hiddenMenuIcon" href="#contact">Contact</a>
+            <a href="#info-title">A propos</a>
+            <a href="#experience">Compétences</a>
+            <a href="#past-experience">Parcours</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+        <nav id="navbar-mobile">
+            <p id="exit-button">X</p>
+            <a href="#info-title">A propos</a>
+            <a href="#experience">Compétences</a>
+            <a href="#past-experience">Parcours</a>
+            <a href="#contact">Contact</a>
 
         </nav>
     </header>
@@ -320,6 +327,7 @@
     </section>
 
     <script src="../js/sticky.js"></script>
+    <script src="../js/menu-burger.js"></script>
 
     <!-- Footer -->
     <footer>

@@ -5,74 +5,79 @@
     // gap: 2em;
     margin: 1em;
 
+    #burger-menu {
+        width: 70px;
+        height: 70px;
+
+    }
 
     #navbar {
+        display: none;
 
-        //  margin: 40px 10px 0 0;
+    }
+
+    #navbar-mobile {
+        display: none;
+        //  display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+        list-style: none;
+        background-color: #DEADFF;
+        color: black;
+
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 100vh;
+        z-index: 1000;
+        transition: right 0.5s ease;
+
+
         a {
             text-decoration: none;
-            color: #DEADFF;
-            font-size: 0.7em;
-            font-weight: 800;
-            margin: 0.5em;
-        }
-
-        a:hover {
-            color: #C15BBD;
-        }
-
-        a::after {
-            color: #DEADFF;
-        }
-
-
-        .shownMenuIcon {
-            width: 40px;
+            color: black;
 
         }
 
-
-
+        a:visited {
+            color: black;
+        }
     }
 }
 
 @media screen and (min-width:800px) {
 
-    /*    #navSection {
-        #namePhoto {
-
-            margin: 30px;
-            width: 500px;
-            height: 400px;
-
-            #myName {
-                font-size: 3em;
-                font-weight: 400;
-                margin: 20px;
-            }
-
-            #headshot {
-                width: 300px;
-                height: 300px;
-            }
-        }
-    } */
-
     #navSection {
         gap: 5em;
 
-        #navbar {
+        #burger-menu {
+            display: none;
+        }
 
-            //   margin: 50px 10px 0 0;
+        #navbar {
+            display: inline-block;
+
             a {
+                text-decoration: none;
+                color: #DEADFF;
+                font-size: 1.5em;
+                font-weight: 800;
+                margin: 0.5em;
+            }
+
+            a:hover {
+                color: #C15BBD;
                 font-size: 1.5em;
                 font-weight: 800;
             }
 
-
-            .shownMenuIcon {
-                width: 70px;
-
+            a::after {
+                color: #DEADFF;
             }
 
 
@@ -87,16 +92,8 @@
 
     #navSection {
 
-
-
-        nav {
+        #navbar {
             margin: 50px;
-
-            .shownMenuIcon {
-                display: none;
-
-            }
-
 
 
         }
