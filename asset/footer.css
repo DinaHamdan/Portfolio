@@ -1,8 +1,27 @@
 /* Footer */
 footer {
+  padding: 2em;
   background-color: black;
   margin-top: 2em;
   color: white;
   text-align: center;
   padding: 20px;
+  color: purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer div {
+  padding: 1em;
+}
+footer div a {
+  color: purple;
+  text-decoration: none;
+}
+footer div a img {
+  width: 20px;
+  height: 20px;
+}
+footer div a:visited {
+  color: purple;
 }/*# sourceMappingURL=footer.css.map */

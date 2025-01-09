@@ -61,7 +61,7 @@
                         <span> les nouvelles technologies</span> et la
                         <span> programmation</span>, ce qui m’a conduit à
                         entreprendre une <span>reconversion </span> en
-                        développement web au Greta, où j’ai pu
+                        <span> développement web </span> au Greta, où j’ai pu
                         confirmer mon appétence pour ce métier.
                     </p>
                     <p class="about-me-paragraph">
@@ -116,7 +116,6 @@
             <p><img src="../asset/img/chronometer.png" alt="">3 semaines en entreprise, 1 semaine en formation
             </p>
             <p><img src="../asset/img/contract.png" alt="">Contrat de professionalisation</p>
-            </p>
 
             <a id="simplon-info" href="../Cv/plaquette-cda.pdf" download="" class="linkButtons">Plaquette Simplon</a>
 
@@ -209,28 +208,41 @@
     <h2 id="project-title">Mes Projets</h2>
     <section id="projects" class="reveal">
         <div class="project">
-            <img src="../asset/img/ffm.png" alt="">
-            <h3>Site Fire From Mars</h3>
-            <p>Un site que j'ai réalisé pour une association de jongleur sur Marseille. Téchnologies: PHP - MVC - SQL - JS - SASS - POO </p>
-            <a target="_blank" href="https://github.com/DinaHamdan/FFM">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/FFM">
+                <h3>Site Fire From Mars</h3>
+                <img src="../asset/img/ffm.png" alt="">
+                <p>Refonte du site d'une association de jongleur sur Marseille. </p>
+                <p> HTML - SASS - JS - PHP - MVC - SQL - POO - login - CRUD </p>
+
+            </a>
         </div>
         <div class="project">
-            <img src="../asset/img/metropole.png" alt="">
-            <h3>Application métrople</h3>
-            <p>Recréation de l'application du métropole en Javascript</p>
-            <a target="_blank" href="https://github.com/DinaHamdan/metropole-transport">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/metropole-transport">
+                <h3>Application métropole</h3>
+                <img src="../asset/img/metropole.png" alt="">
+                <p>Recréation de l'application du métropole Mobilité.</p>
+                <p>Manipulation du DOM avec du javaScript</p>
+
+            </a>
         </div>
         <div class="project">
-            <img src="../asset/img/blog.png" alt="">
-            <h3>BlaBla Blog</h3>
-            <p>Création d'un site blog avec une authenthification login et une possibilité de poster des discussions, mettre des commentaires et des likes. Téchnologies: php - sql - css - CRUD - login</p>
-            <a target="_blank" href="https://github.com/DinaHamdan/Blog">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/Blog">
+                <h3>BlaBla Blog</h3>
+                <img src="../asset/img/blog.png" alt="">
+                <p>Création d'un blog - publication d'articles - mettre des commentaires et Likes.</p>
+                <p> HTML - CSS - PHP - SQL - CRUD - login</p>
+
+            </a>
         </div>
         <div class="project">
-            <img src="../asset/img/carambar.png" alt="">
-            <h3>API Carambar</h3>
-            <p>Création d'un site blog avec une authenthification login et une possibilité de poster des discussions, mettre des commentaires et des likes. Téchnologies: php - sql - css - CRUD - login</p>
-            <a target="_blank" href="https://github.com/DinaHamdan/api-carambar">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/api-carambar">
+
+                <h3>API Carambar</h3>
+                <img src="../asset/img/carambar.png" alt="">
+                <p>Réalisation d'un API Carambar versionnée.</p>
+                <p> API Rest - Node - Sequelize - Express - MVC</p>
+
+            </a>
         </div>
     </section>
 
@@ -299,7 +311,7 @@
                 </div>
                 <div class="contact-container-3">
                     <textarea class="inputMessage" required name="contactMsg" id="contactMsg" rows="10" cols="20" placeholder="Message..."></textarea>
-                    <input class="sendButton" type="submit" value="Envoyer" name="" id="">
+                    <input class="sendButton" type="submit" value="Envoyer">
                 </div>
             </form>
 
@@ -312,9 +324,17 @@
     <!-- Footer -->
     <footer>
 
+        <div>
+            <p>&copy; 2025 Dina Hamdan. All rights reserved</p>
+            <a target="_blank" href="https://www.flaticon.com" title="location icons"> Icons created by Freepik - Flaticon</a>
 
-        <p>&copy; 2025 Dina Hamdan. All rights reserved.</p>
-        <a href="<a href=" https://www.flaticon.com" title="location icons"> Icons created by Freepik - Flaticon</a>"></a>
+        </div>
+        <div>
+            <a href="mailto: dina.m.hamdane@gmail.com">dina.m.hamdane@gmail.com</a>
+
+            <a target="_blank" href="https://github.com/DinaHamdan"><img src="../asset/img/github.png" alt=""></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"><img src="../asset/img/linkedin.png" alt=""></a>
+        </div>
     </footer>
 </body>
 
