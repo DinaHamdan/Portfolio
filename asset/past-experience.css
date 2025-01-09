@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 300px;
+  padding: 2em;
 }
 #past-experience .past-experience-container-1 {
   display: flex;
@@ -32,7 +33,7 @@
 #past-experience .past-experience-container-2 .past-experience-container-flex .text-container {
   margin-left: 40px;
   width: 250px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 500;
   position: relative;
 }
@@ -79,7 +80,7 @@
   top: -2px;
 }
 #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .big-title {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #past-experience .past-experience-container-2 .line-container {
   width: 7px;
@@ -117,6 +118,7 @@
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container {
     margin-left: 0;
+    font-size: 1.5em;
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .circle-1 {
     top: -70px;
@@ -135,7 +137,7 @@
     left: -5px;
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .big-title {
-    font-size: 1.5em;
+    margin-right: 1em;
   }
   #past-experience .line-container {
     display: none;

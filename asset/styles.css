@@ -79,6 +79,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 1em;
+  padding: 2em;
 }
 #about-me .about-me-container-1 {
   display: flex;
@@ -232,7 +233,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1em;
+  gap: 2em;
   color: white;
 }
 #info #namePhoto {
@@ -240,11 +241,24 @@
   border-left: 3px solid #C15BBD;
   margin: 10px;
   width: 300px;
-  height: 250px;
+  gap: 2em;
+  padding: 1em;
 }
 #info #namePhoto #headshot {
   width: 250px;
   height: 250px;
+}
+#info #namePhoto #soft-skills {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
+  text-align: justify;
+}
+#info #namePhoto #soft-skills p {
+  font-size: 1em;
+  border-radius: 50px;
+  background-color: #C15BBD;
+  padding: 1em;
 }
 #info #alternance-container {
   border-radius: 50px;
@@ -258,6 +272,11 @@
   gap: 1em;
   box-shadow: 5px 5px 7px #1209B6;
   padding: 2em;
+}
+#info #alternance-container p img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 #info #alternance-container #simplon-info {
   text-decoration: none;
@@ -275,18 +294,6 @@
 #info #alternance-container #simplon-info:hover {
   transform: scale(1.2);
 }
-#info #soft-skills {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 1em;
-  text-align: justify;
-}
-#info #soft-skills p {
-  font-size: 1em;
-  border-radius: 50px;
-  background-color: #C15BBD;
-  padding: 1em;
-}
 
 @media screen and (min-width: 800px) {
   #info-title {
@@ -299,14 +306,10 @@
   }
   #info #namePhoto {
     width: 400px;
-    height: 350px;
   }
   #info #namePhoto #headshot {
     width: 300px;
     height: 300px;
-  }
-  #info #soft-skills p {
-    font-size: 1.5em;
   }
 }
 #experience {
@@ -589,7 +592,7 @@
   align-items: center;
   justify-content: center;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   gap: 1em;
   /* Project Card Styles */
 }
@@ -633,12 +636,16 @@
   #project-title {
     font-size: 3.5em;
   }
+  #projects {
+    grid-template-columns: auto auto;
+  }
 }
 #past-experience {
   margin-top: 100px;
   display: flex;
   flex-direction: column;
   width: 300px;
+  padding: 2em;
 }
 #past-experience .past-experience-container-1 {
   display: flex;
@@ -668,7 +675,7 @@
 #past-experience .past-experience-container-2 .past-experience-container-flex .text-container {
   margin-left: 40px;
   width: 250px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: 500;
   position: relative;
 }
@@ -715,7 +722,7 @@
   top: -2px;
 }
 #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .big-title {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #past-experience .past-experience-container-2 .line-container {
   width: 7px;
@@ -753,6 +760,7 @@
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container {
     margin-left: 0;
+    font-size: 1.5em;
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .circle-1 {
     top: -70px;
@@ -771,7 +779,7 @@
     left: -5px;
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .big-title {
-    font-size: 1.5em;
+    margin-right: 1em;
   }
   #past-experience .line-container {
     display: none;

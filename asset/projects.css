@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: center;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   gap: 1em;
   /* Project Card Styles */
 }
@@ -56,5 +56,8 @@
 @media screen and (min-width: 810px) {
   #project-title {
     font-size: 3.5em;
+  }
+  #projects {
+    grid-template-columns: auto auto;
   }
 }/*# sourceMappingURL=projects.css.map */

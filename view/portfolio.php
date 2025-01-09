@@ -28,7 +28,7 @@
 -->
 
             <a class="shownMenuIcon" href="">Acceuil</a>
-            <a class="hiddenMenuIcon" href="#about-me">A propos</a>
+            <a class="hiddenMenuIcon" href="#info-title">A propos</a>
             <a class="hiddenMenuIcon" href="#experience">Compétences</a>
             <a class="hiddenMenuIcon" href="#past-experience">Parcours</a>
             <a class="hiddenMenuIcon" href="#contact">Contact</a>
@@ -93,28 +93,29 @@
         <div id="namePhoto">
 
             <img id="headshot" src="../asset/img/CV-photo.png" alt="">
-        </div>
-        <div id="soft-skills">
 
-            <p>Rigoureuse</p>
-            <p>Autonome</p>
-            <p>Adaptable</p>
-            <p>Travail en équipe</p>
-            <p>Curieuse</p>
-            <p>Dynamique</p>
+            <div id="soft-skills">
 
+                <p>Rigoureuse</p>
+                <p>Autonome</p>
+                <p>Adaptable</p>
+                <p>Travail en équipe</p>
+                <p>Curieuse</p>
+                <p>Dynamique</p>
+
+            </div>
         </div>
         <div id="alternance-container">
             <h2>Recherche d'alternance</h2>
 
-            <p>📍 Marseile | Toulouse et agglomération </p>
-            <p>🗓️ À partir de Mars 2025
+            <p><img src="../asset/img/map.png" alt=""> Marseile | Toulouse et agglomération </p>
+            <p><img src="../asset/img/schedule.png" alt="">À partir de Mars 2025
             </p>
-            <p>📚 Organisme de formation : Simplon
+            <p><img src="../asset/img/education.png" alt="">Organisme de formation : Simplon
             </p>
-            <p>⌛ 3 semaines en entreprise, 1 semaine en formation
+            <p><img src="../asset/img/chronometer.png" alt="">3 semaines en entreprise, 1 semaine en formation
             </p>
-            <p>📃 Contrat de professionalisation</p>
+            <p><img src="../asset/img/contract.png" alt="">Contrat de professionalisation</p>
             </p>
 
             <a id="simplon-info" href="../Cv/plaquette-cda.pdf" download="" class="linkButtons">Plaquette Simplon</a>
@@ -205,31 +206,31 @@
     </section>
 
     <!-- Projects Section -->
-    <h2 id="project-title">Mes projets</h2>
+    <h2 id="project-title">Mes Projets</h2>
     <section id="projects" class="reveal">
         <div class="project">
             <img src="../asset/img/ffm.png" alt="">
             <h3>Site Fire From Mars</h3>
             <p>Un site que j'ai réalisé pour une association de jongleur sur Marseille. Téchnologies: PHP - MVC - SQL - JS - SASS - POO </p>
-            <a href="https://github.com/DinaHamdan/FFM">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/FFM">View Project</a>
         </div>
         <div class="project">
             <img src="../asset/img/metropole.png" alt="">
             <h3>Application métrople</h3>
             <p>Recréation de l'application du métropole en Javascript</p>
-            <a href="https://github.com/DinaHamdan/metropole-transport">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/metropole-transport">View Project</a>
         </div>
         <div class="project">
             <img src="../asset/img/blog.png" alt="">
             <h3>BlaBla Blog</h3>
             <p>Création d'un site blog avec une authenthification login et une possibilité de poster des discussions, mettre des commentaires et des likes. Téchnologies: php - sql - css - CRUD - login</p>
-            <a href="https://github.com/DinaHamdan/Blog">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/Blog">View Project</a>
         </div>
         <div class="project">
             <img src="../asset/img/carambar.png" alt="">
             <h3>API Carambar</h3>
             <p>Création d'un site blog avec une authenthification login et une possibilité de poster des discussions, mettre des commentaires et des likes. Téchnologies: php - sql - css - CRUD - login</p>
-            <a href="https://github.com/DinaHamdan/api-carambar">View Project</a>
+            <a target="_blank" href="https://github.com/DinaHamdan/api-carambar">View Project</a>
         </div>
     </section>
 
@@ -250,27 +251,27 @@
             <div class="past-experience-container-flex">
                 <!--  -->
                 <div class="text-container">
-                    <p>Bachelor's Biochemistry</p>
+                    <p>Licence Biochimie</p>
                     <div class="circle-1"></div>
                 </div>
                 <div class="text-container">
-                    <p>Masters Plant Biotechnology
-                        <span>Bio-Statistics</span>
+                    <p>Master Biotechnologie
+                        <span>Bio-Statistique</span>
                     </p>
                     <div class="circle-2"></div>
                 </div>
                 <div class="text-container">
                     <p>Masters Agricultural Sciences
-                        <span>Bio-Statistics</span>
-                        <span>Bio-Informatics</span>
+                        <span>Bio-Statistique</span>
+                        <span>Bio-Informatique</span>
                         <span>Machine Learning</span>
                     </p>
                     <div class="circle-3"></div>
                 </div>
                 <div class="text-container">
-                    <p>Research Engineer
-                        <span>Bio-Statistics</span>
-                        <span>Bio-Informatics</span>
+                    <p>Ingénieur d'étude
+                        <span>Bio-Statistique</span>
+                        <span>Bio-Informatique</span>
                     </p>
                     <div class="circle-4"></div>
                 </div>
@@ -310,7 +311,10 @@
 
     <!-- Footer -->
     <footer>
+
+
         <p>&copy; 2025 Dina Hamdan. All rights reserved.</p>
+        <a href="<a href=" https://www.flaticon.com" title="location icons"> Icons created by Freepik - Flaticon</a>"></a>
     </footer>
 </body>
 
