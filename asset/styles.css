@@ -779,7 +779,7 @@
     left: -5px;
   }
   #past-experience .past-experience-container-2 .past-experience-container-flex .text-container .big-title {
-    margin-right: 1em;
+    margin-right: 2em;
   }
   #past-experience .line-container {
     display: none;
@@ -791,6 +791,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 1em;
 }
 #contact .contact-container-1 {
   display: flex;
@@ -834,9 +835,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
-  align-items: flex-start;
-  margin-left: 30px;
 }
 #contact .contact-container-3 .inputMessage {
   color: #DEADFF;
@@ -873,7 +874,6 @@
   }
   #contact .contact-container-2 {
     width: 680px;
-    margin-left: 0.9em;
   }
   #contact .contact-container-2 .content {
     border-radius: 10px;
@@ -891,7 +891,6 @@
   }
   #contact .contact-container-3 {
     align-items: center;
-    width: 650px;
   }
   #contact .contact-container-3 .inputMessage {
     width: 400px;
