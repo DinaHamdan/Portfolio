@@ -10,11 +10,11 @@ require '../vendor/autoload.php'; // For Composer installation
 // require 'PHPMailer/src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
+    $fname = htmlspecialchars($_POST['fname']);
+    $lname = htmlspecialchars($_POST['lname']);
     //$phoneNumber = $_POST['phoneNumber'];
-    $email = $_POST['email'];
-    $message = $_POST['contactMsg'];
+    $email = htmlspecialchars($_POST['email']);
+    $message = htmlspecialchars($_POST['contactMsg']);
 
     $mail = new PHPMailer(true);
 
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Content
         $mail->isHTML(true);
-        $mail->Subject = "Contact form message from $fname $lname";
+        $mail->Subject = " Portfolio contact form message from $fname $lname";
         $mail->Body    = nl2br($message);
 
         $mail->send();

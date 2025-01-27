@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
-    <title>New Portfolio</title>
+    <title>Dina Hamdan - Portfolio</title>
 </head>
 
 <body>
@@ -55,7 +55,7 @@
 
                     <h1 id="myName">Dina Hamdan</h1>
                 </div>
-                <h2 class="second-about-me-title">Conceptrice développeuse d'applications</h2>
+                <h2 class="second-about-me-title">Développeuse Web Full Stack</h2>
 
                 <div class="blue-container-about-me">
                     <p class="about-me-paragraph">Grâce à mon background scientifique,
@@ -68,20 +68,19 @@
                         <span> les nouvelles technologies</span> et la
                         <span> programmation</span>, ce qui m’a conduit à
                         entreprendre une <span>reconversion </span> en
-                        <span> développement web </span> au Greta, où j’ai pu
+                        <span> développement web</span>, où j’ai pu
                         confirmer mon appétence pour ce métier.
                     </p>
                     <p class="about-me-paragraph">
                         Aujourd’hui, je souhaite évoluer et mettre
                         mes compétences au profit d’un nouveau
-                        challenge pour devenir <span> conceptrice
-                            développeuse d'applications</span> au sein de
-                        <span>Simplon </span> . Mon profil, caractérisé par une
+                        challenge pour devenir <span>un ingénieur tech confirmé</span>, capable de s’adapter aux évolutions constantes de la technologie.
+                        Mon profil, caractérisé par une
                         grande rigueur et une curiosité, peut
                         apporter une valeur ajoutée à votre
                         équipe.
                     </p>
-                    <a id="CV" href="Cv/CV-Dina-Hamdan.pdf" download="" class="linkButtons">Mon CV</a>
+                    <a id="CV" href="../Cv/CV-Dina-Hamdan.pdf" download="" class="linkButtons">Mon CV</a>
 
                 </div>
 
@@ -116,15 +115,11 @@
             <h2>Recherche d'alternance</h2>
 
             <p><img src="../asset/img/map.png" alt=""> Marseile | Toulouse et agglomération </p>
-            <p><img src="../asset/img/schedule.png" alt="">À partir de Mars 2025
+            <p><img src="../asset/img/schedule.png" alt="">2025-2026
             </p>
-            <p><img src="../asset/img/education.png" alt="">Organisme de formation : Simplon
-            </p>
-            <p><img src="../asset/img/chronometer.png" alt="">3 semaines en entreprise, 1 semaine en formation
-            </p>
+
             <p><img src="../asset/img/contract.png" alt="">Contrat de professionalisation</p>
 
-            <a id="simplon-info" href="../Cv/plaquette-cda.pdf" download="" class="linkButtons">Plaquette Simplon</a>
 
         </div>
 
@@ -155,15 +150,12 @@
             <p>PHP</p>
             <p>POO</p>
             <p>MySQL</p>
-            <p>MongoDB</p>
             <p>R</p>
             <p>Linux</p>
-            <p>Docker</p>
             <p>Angular</p>
             <p>NodeJS</p>
             <p>React</p>
             <p>Symfony</p>
-            <p>Twig</p>
 
             <!--        <img src="../asset/img/icons8-html-64.png" alt="html-logo">
             <img src="../asset/img/icons8-css-filetype-64.png" alt="css-logo">
